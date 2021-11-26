@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>West Bengal Assembly Election Result 2021</title>
+	<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+	<!-- <link rel="icon" href="assets/img/icon.ico" type="image/x-icon" /> -->
+
+	<!-- Fonts and icons -->
+	<script src="assets/js/plugin/webfont/webfont.min.js"></script>
+	<script>
+		WebFont.load({
+			google: { "families": ["Lato:300,400,700,900"] },
+			custom: { "families": ["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"], urls: ['assets/css/fonts.min.css'] },
+			active: function () {
+				sessionStorage.fonts = true;
+			}
+		});
+	</script>
+
+	<!-- Plotly CDN -->
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+	<!-- CSS Files -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/atlantis.min.css">
+	<link rel="stylesheet" href="assets/css/extra.css">
+
+	<!-- CSS Just for demo purpose, don't include it in your project -->
+	<link rel="stylesheet" href="assets/css/demo.css">
+</head>
+
+<body data-background-color="dark">
+	<div class="wrapper">
+		<div class="main-header">
+			<!-- Logo Header -->
+			<div class="logo-header" data-background-color="dark2">
+
+				<a href="./index.html" class="logo">
+					<!-- <img src="./assets/img/logo.svg" alt="navbar brand" class="navbar-brand"> -->
+					West Bengal Elections
+				</a>
+				<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse"
+					data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon">
+						<i class="icon-menu"></i>
+					</span>
+				</button>
+				<!-- <button class="topbar-toggler more"><i class="icon-options-vertical"></i></button> -->
+				<div class="nav-toggle">
+					<button class="btn btn-toggle toggle-sidebar">
+						<i class="icon-menu"></i>
+					</button>
+				</div>
+			</div>
+			<!-- End Logo Header -->
+
+			<!-- Navbar Header -->
+			<nav class="navbar navbar-header navbar-expand-lg" data-background-color="dark">
+
+				<div class="container-fluid">
+
+
+
+					<!-- <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false">
+								<div class="avatar-sm">
+									<img src="../assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
+								</div>
+							</a> -->
+					<ul class="dropdown-menu dropdown-user animated fadeIn">
+						<div class="dropdown-user-scroll scrollbar-outer">
+
+							<li>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">My Profile</a>
+								<a class="dropdown-item" href="#">My Balance</a>
+								<a class="dropdown-item" href="#">Inbox</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Account Setting</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Logout</a>
+							</li>
+						</div>
+					</ul>
+					</li>
+					</ul>
+				</div>
+			</nav>
+			<!-- End Navbar -->
+		</div>
+		
+		<!-- Sidebar -->
+		<div class="sidebar sidebar-style-2" data-background-color="dark2">
+
+			<div class="sidebar-wrapper scrollbar scrollbar-inner">
+				<div class="sidebar-content">
+
+					<ul class="nav nav-primary">
+						<!-- <li class="nav-item">
+							<a data-toggle="collapse" href="#dashboard" class="collapsed" aria-expanded="false">
+								<i class="fas fa-home"></i>
+								<p>Dashboard</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="dashboard">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="./constituency.html">
+											<span class="sub-item">constituency</span>
+										</a>
+									</li>
+									<li>
+										<a href="../../demo2/index.html">
+											<span class="sub-item">Dashboard 2</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-section">
+							<span class="sidebar-mini-icon">
+								<i class="fa fa-ellipsis-h"></i>
+							</span>
+							<h4 class="text-section">Components</h4>
+						</li>
+						<li class="nav-item active submenu">
+							<a data-toggle="collapse" href="#charts">
+								<i class="far fa-chart-bar"></i>
+								<p>Charts</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse show" id="charts">
+								<ul class="nav nav-collapse">
+									<li class="active">
+										<a href="../charts/charts.html">
+											<span class="sub-item">Plotly Js</span>
+										</a>
+									</li>
+									<li>
+										<a href="../charts/sparkline.html">
+											<span class="sub-item">Sparkline</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#base">
+								<i class="fas fa-layer-group"></i>
+								<p>Base</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="base">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="../components/avatars.html">
+											<span class="sub-item">Avatars</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/buttons.html">
+											<span class="sub-item">Buttons</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/gridsystem.html">
+											<span class="sub-item">Grid System</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/panels.html">
+											<span class="sub-item">Panels</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/notifications.html">
+											<span class="sub-item">Notifications</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/sweetalert.html">
+											<span class="sub-item">Sweet Alert</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/font-awesome-icons.html">
+											<span class="sub-item">Font Awesome Icons</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/simple-line-icons.html">
+											<span class="sub-item">Simple Line Icons</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/flaticons.html">
+											<span class="sub-item">Flaticons</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/typography.html">
+											<span class="sub-item">Typography</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#sidebarLayouts">
+								<i class="fas fa-th-list"></i>
+								<p>Sidebar Layouts</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="sidebarLayouts">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="../sidebar-style-1.html">
+											<span class="sub-item">Sidebar Style 1</span>
+										</a>
+									</li>
+									<li>
+										<a href="../overlay-sidebar.html">
+											<span class="sub-item">Overlay Sidebar</span>
+										</a>
+									</li>
+									<li>
+										<a href="../compact-sidebar.html">
+											<span class="sub-item">Compact Sidebar</span>
+										</a>
+									</li>
+									<li>
+										<a href="../static-sidebar.html">
+											<span class="sub-item">Static Sidebar</span>
+										</a>
+									</li>
+									<li>
+										<a href="../icon-menu.html">
+											<span class="sub-item">Icon Menu</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#forms">
+								<i class="fas fa-pen-square"></i>
+								<p>Forms</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="forms">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="../forms/forms.html">
+											<span class="sub-item">Basic Form</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#tables">
+								<i class="fas fa-table"></i>
+								<p>Tables</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="tables">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="../tables/tables.html">
+											<span class="sub-item">Basic Table</span>
+										</a>
+									</li>
+									<li>
+										<a href="../tables/datatables.html">
+											<span class="sub-item">Datatables</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#maps">
+								<i class="fas fa-map-marker-alt"></i>
+								<p>Maps</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="maps">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="../maps/jqvmap.html">
+											<span class="sub-item">JQVMap</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a href="../widgets.html">
+								<i class="fas fa-desktop"></i>
+								<p>Widgets</p>
+								<span class="badge badge-success">4</span>
+							</a>
+						</li>  -->
+						<li class="nav-item">
+							<a href="./index.html">
+								<i class="fas fa-clipboard"></i>
+								<p>Dashboard</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./successful-candidates.html">
+								<i class="fas fa-list-ul"></i>
+								<p>List of Successful<br>Candidates</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./list-of-political-parties-participated.html">
+								<i class="far fa-list-alt"></i>
+								<p>List Of Political Parties<br>Participated</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./highlight.html">
+								<i class="fas fa-highlighter"></i>
+								<p>Highlight</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./electors-data-summary.html">
+								<i class="fas fa-digital-tachograph"></i>
+								<p>Electors Data Summary</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./women-candidate.html">
+								<i class="fas fa-female"></i>
+								<p>Individual Performance<br>Of Women Candidate</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./constituency.html">
+								<i class="fas fa-desktop"></i>
+								<p>Constituency Data<br>Summary</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./candidate.html">
+								<i class="fas fa-address-card"></i>
+								<p>Candidate Data Summary</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./detailed-results.html">
+								<i class="fas fa-atlas"></i>
+								<p>Detailed Results</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./abbreviations.html">
+								<i class="fas fa-compress"></i>
+								<p>Abbreviations</p>
+							</a>
+						</li>
+						<li class="nav-item active">
+							<a href="./annxure.html">
+								<i class="fas fa-book-open"></i>
+								<p>ANNXURE - 1<br>(ELECTORS DATA<br>SUMMARY)</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- End Sidebar -->
+
+		<div class="main-panel">
+			<div class="content">
+				<div id="ann1"></div>
+				<!-- <div class="row chart-row">
+					<div class="col-md-12">
+						<div class="card">
+							<div class="card-header">
+								<div class="card-title">Constituency Wise Data</div>
+							</div>
+							<div class="card-body">
+								<div class="chart-container">
+									<div id="ann1"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> -->
+			</div>
+			<footer class="footer">
+				<!-- <div class="container-fluid">
+					<nav class="pull-left">
+						<ul class="nav">
+							<li class="nav-item">
+								<a class="nav-link" href="https://www.themekita.com">
+									ThemeKita
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Help
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Licenses
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="copyright ml-auto">
+						2018, made with <i class="fa fa-heart heart text-danger"></i> by <a href="https://www.themekita.com">ThemeKita</a>
+					</div>				
+				</div> -->
+				<div class="container-fluid">
+					<div class="copyright ml-auto">
+						2021, made with <i class="fa fa-heart heart text-danger"></i> by Root2AI.
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<!-- Custom template | don't include it in your project! -->
+		<!-- <div class="custom-template">
+			<div class="title">Settings</div>
+			<div class="custom-content">
+				<div class="switcher">
+					<div class="switch-block">
+						<h4>Logo Header</h4>
+						<div class="btnSwitch">
+							<button type="button" class="changeLogoHeaderColor" data-color="dark"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="blue"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="purple"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="light-blue"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="green"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="orange"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="red"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="white"></button>
+							<br/>
+							<button type="button" class="selected changeLogoHeaderColor" data-color="dark2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="blue2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="purple2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="light-blue2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="green2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="orange2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="red2"></button>
+						</div>
+					</div>
+					<div class="switch-block">
+						<h4>Navbar Header</h4>
+						<div class="btnSwitch">
+							<button type="button" class="selected changeTopBarColor" data-color="dark"></button>
+							<button type="button" class="changeTopBarColor" data-color="blue"></button>
+							<button type="button" class="changeTopBarColor" data-color="purple"></button>
+							<button type="button" class="changeTopBarColor" data-color="light-blue"></button>
+							<button type="button" class="changeTopBarColor" data-color="green"></button>
+							<button type="button" class="changeTopBarColor" data-color="orange"></button>
+							<button type="button" class="changeTopBarColor" data-color="red"></button>
+							<button type="button" class="changeTopBarColor" data-color="white"></button>
+							<br/>
+							<button type="button" class="changeTopBarColor" data-color="dark2"></button>
+							<button type="button" class="changeTopBarColor" data-color="blue2"></button>
+							<button type="button" class="changeTopBarColor" data-color="purple2"></button>
+							<button type="button" class="changeTopBarColor" data-color="light-blue2"></button>
+							<button type="button" class="changeTopBarColor" data-color="green2"></button>
+							<button type="button" class="changeTopBarColor" data-color="orange2"></button>
+							<button type="button" class="changeTopBarColor" data-color="red2"></button>
+						</div>
+					</div>
+					<div class="switch-block">
+						<h4>Sidebar</h4>
+						<div class="btnSwitch">
+							<button type="button" class="changeSideBarColor" data-color="white"></button>
+							<button type="button" class="changeSideBarColor" data-color="dark"></button>
+							<button type="button" class="selected changeSideBarColor" data-color="dark2"></button>
+						</div>
+					</div>
+					<div class="switch-block">
+						<h4>Background</h4>
+						<div class="btnSwitch">
+							<button type="button" class="changeBackgroundColor" data-color="bg2"></button>
+							<button type="button" class="changeBackgroundColor selected" data-color="bg1"></button>
+							<button type="button" class="changeBackgroundColor" data-color="bg3"></button>
+							<button type="button" class="selected changeBackgroundColor" data-color="dark"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="custom-toggle">
+				<i class="flaticon-settings"></i>
+			</div>
+		</div> -->
+		<!-- End Custom template -->
+	</div>
+	<!--   Core JS Files   -->
+	<script src="assets/js/core/jquery.3.2.1.min.js"></script>
+	<script src="assets/js/core/popper.min.js"></script>
+	<script src="assets/js/core/bootstrap.min.js"></script>
+
+	<!-- jQuery UI -->
+	<script src="assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+	<script src="assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+
+	<!-- jQuery Scrollbar -->
+	<script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+
+	<!-- Chart JS -->
+	<script src="assets/js/plugin/chart.js/chart.min.js"></script>
+
+	<!-- jQuery Sparkline -->
+	<script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+
+	<!-- Chart Circle -->
+	<script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+
+	<!-- Datatables -->
+	<script src="assets/js/plugin/datatables/datatables.min.js"></script>
+
+	<!-- Bootstrap Notify -->
+	<!-- <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script> -->
+
+	<!-- jQuery Vector Maps -->
+	<script src="assets/js/plugin/jqvmap/jquery.vmap.min.js"></script>
+	<script src="assets/js/plugin/jqvmap/maps/jquery.vmap.world.js"></script>
+
+	<!-- Sweet Alert -->
+	<script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+	<!-- Atlantis JS -->
+	<script src="assets/js/atlantis.min.js"></script>
+
+	<!-- Atlantis DEMO methods, don't include it in your project! -->
+	<!-- <script src="assets/js/setting-demo.js"></script>
+	<script src="assets/js/demo.js"></script> -->
+
+	<!-- souren js -->
+	<!-- <script src="datasets/ConstituencySummary.js"></script>
+	<script src="assets/js/script.js"></script>
+	<script>
+		$('#lineChart').sparkline([198744,214203,243916,195505,245966,238578,243751,217173,209378,232489,195815,222732,220500,166920,229323,236093,225933,215755,258969,213255,191169,154863,168575,175545,240591,178650,207590,204110,169974,161535,173400,213136,223301,239726,161347,193986,184075,170928,152092,186309,189482,187642,197989,221214,199679,203153,185484,219148,206991,206489,215675,163143,207591,208652,186424,216328,190478,186816,190438,225990,222016,229231,208516,185936,176803,186481,189047,210445,204511,197607,216075,202349,226183,222167,221506,218109,203385,209379,209570,213175,201805,210589,195685,219692,223193,231938,214736,241687,212064,220338,210874,218791,205175,207834,213243,211804,212883,204171,216724,211742,139096,156468,107197,181287,192634,148249,183147,213149,174356,144310,160259,185334,234906,162035,178723,230431,225707,214380,227395,212352,205787,235737,238426,194681,195808,213910,227351,231786,219597,239067,193130,238720,199490,202431,225114,218354,232766,211293,206153,194282,225397,207932,235546,237570,232807,242185,223154,215419,240495,197365,221872,231816,219969,216892,196582,152443,127376,124455,150962,111493,156874,158506,98955,102970,132967,134872,125873,149720,195144,182219,216940,222127,217009,193021,185780,202266,221889,199935,208810,198211,235721,250978,199894,188081,201131,209938,182178,254737,219957,223664,192190,207106,210411,220774,233838,205917,223074,219960,219545,217991,236031,198400,234141,224434,227275,219355,220823,228405,220327,208827,228416,222650,212621,194681,222060,240817,197798,192354,199070,201797,212681,171385,217750,236201,228669,200044,204866,222464,225375,249315,207681,249195,230232,238898,188798,241055,197965,206303,202767,206868,213729,194892,194021,214690,202413,196836,211170,194476,203186,217986,219452,225759,191469,224123,218453,207739,217897,205345,229166,206690,209036,208951,218802,241925,214168,215353,212343,224459,215317,217329,217080,222538,164291,192674,196902,182211,166703,194737,192907,174767,169207,204599,218590,230260,235328,212027,221866,199425,217323,210606,207696,217917], {
+			type: 'line',
+			height: '70',
+			width: '100%',
+			lineWidth: '2',
+			lineColor: 'rgba(255, 255, 255, .5)',
+			fillColor: 'rgba(255, 255, 255, .15)'
+		});
+
+		$('#lineChart2').sparkline([197407,212255,240745,192516,244405,236342,240790,213948,206508,230006,194173,219217,218209,165539,226834,233410,220354,213376,257230,212195,190489,152220,165269,172746,238883,176578,206596,202611,168361,160768,172512,211840,221313,236929,158159,192368,182357,169469,149157,184025,187106,186088,196069,219569,198546,202028,184627,217357,204725,204268,211215,161494,206409,207441,185668,215357,189906,185912,189888,225284,220910,228020,207136,184924,175669,184705,188272,208651,202981,194545,214655,201272,225097,220652,217713,214693,200785,206189,206926,210813,198464,207755,193754,217309,220674,229493,212604,239705,208591,217245,209221,216765,202920,205732,210815,211018,211905,202772,214721,211154,137763,154972,106782,179838,191207,147156,182254,212247,173334,143561,158813,184498,234050,160858,177833,228540,224493,213691,226479,211767,204895,234313,237417,192707,194314,212253,226152,230776,218743,237200,192142,236830,198546,201538,223716,217225,231658,209952,205042,192692,224450,206388,234398,236238,231117,241671,222319,213515,239193,195753,220425,230046,219140,215358,196153,151971,126592,122990,150364,110882,156146,157402,98548,102001,132275,133309,125511,149388,194766,181522,216434,221797,216646,192430,185444,202090,221434,199571,208617,197523,234851,250599,198698,186927,200151,207760,179848,252290,218340,222239,190989,206390,208957,218906,231681,203625,221573,218615,218390,216853,234208,197825,232650,222446,225610,217030,219538,226361,218999,206772,226402,221004,211204,192644,220575,238837,196340,190068,196221,198802,211275,170420,216387,232652,226729,198468,202440,220473,223253,247948,206336,247041,229238,235570,187618,238332,196592,204652,201057,205139,211117,193080,193133,213004,200973,195390,208939,192811,200969,215761,218029,224250,189654,221402,216638,205678,216128,203603,227573,205681,208023,208183,217962,240406,212951,214469,210957,222818,214030,216010,216117,221469,162791,190882,195288,180923,165659,192785,190782,173810,167302,202544,215276,227100,232681,209489,219024,197055,214922,208789,206298,216411], {
+			type: 'line',
+			height: '70',
+			width: '100%',
+			lineWidth: '2',
+			lineColor: 'rgba(255, 255, 255, .5)',
+			fillColor: 'rgba(255, 255, 255, .15)'
+		});
+
+		$('#lineChart3').sparkline([1337,1948,3171,2989,1561,2236,2961,3225,2870,2483,1642,3515,2291,1381,2489,2683,5579,2379,1739,1060,680,2643,3306,2799,1708,2072,994,1499,1613,767,888,1296,1988,2797,3188,1618,1718,1459,2935,2284,2376,1554,1920,1645,1133,1125,857,1791,2266,2221,4460,1649,1182,1211,756,971,572,904,550,706,1106,1211,1380,1012,1134,1776,775,1794,1530,3062,1420,1077,1086,1515,3793,3416,2600,3190,2644,2362,3341,2834,1931,2383,2519,2445,2132,1982,3473,3093,1653,2026,2255,2102,2428,786,978,1399,2003,588,1333,1496,415,1449,1427,1093,893,902,1022,749,1446,836,856,1177,890,1891,1214,689,916,585,892,1424,1009,1974,1494,1657,1199,1010,854,1867,988,1890,944,893,1398,1129,1108,1341,1111,1590,947,1544,1148,1332,1690,514,835,1904,1302,1612,1447,1770,829,1534,429,472,784,1465,598,611,728,1104,407,969,692,1563,362,332,378,697,506,330,363,591,336,176,455,364,193,688,870,379,1196,1154,980,2178,2330,2447,1617,1425,1201,716,1454,1868,2157,2292,1501,1345,1155,1138,1823,575,1491,1988,1665,2325,1285,2044,1328,2055,2014,1646,1417,2037,1485,1980,1458,2286,2849,2995,1406,965,1363,3549,1940,1576,2426,1991,2122,1367,1345,2154,994,3328,1180,2723,1373,1651,1710,1729,2612,1812,888,1686,1440,1446,2231,1665,2217,2225,1423,1509,1815,2721,1815,2061,1769,1742,1593,1009,1013,768,840,1519,1217,884,1386,1641,1287,1319,963,1069,1500,1792,1614,1288,1044,1952,2125,957,1905,2055,3314,3160,2647,2538,2842,2370,2401,1817,1398,1506], {
+			type: 'line',
+			height: '70',
+			width: '100%',
+			lineWidth: '2',
+			lineColor: 'rgba(255, 255, 255, .5)',
+			fillColor: 'rgba(255, 255, 255, .15)'
+		});
+	</script> -->
+
+	<!-- Rahul -->
+	<script src="./assets/js/annxure.js"></script>
+
+</body>
+
+</html>

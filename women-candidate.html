@@ -1,0 +1,3467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>West Bengal Assembly Election Result 2021</title>
+	<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+	<!-- <link rel="icon" href="assets/img/icon.ico" type="image/x-icon" /> -->
+
+	<!-- Fonts and icons -->
+	<script src="assets/js/plugin/webfont/webfont.min.js"></script>
+	<script>
+		WebFont.load({
+			google: { "families": ["Lato:300,400,700,900"] },
+			custom: { "families": ["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"], urls: ['assets/css/fonts.min.css'] },
+			active: function () {
+				sessionStorage.fonts = true;
+			}
+		});
+	</script>
+
+	
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.11.3/datatables.min.css" />	
+
+	<!-- Plotly CDN -->
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+	<!-- CSS Files -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/atlantis.min.css">
+	<link rel="stylesheet" href="assets/css/extra.css">
+
+	<!-- CSS Just for demo purpose, don't include it in your project -->
+	<link rel="stylesheet" href="assets/css/demo.css">
+</head>
+
+<body data-background-color="dark">
+	<div class="wrapper">
+		<div class="main-header">
+			<!-- Logo Header -->
+			<div class="logo-header" data-background-color="dark2">
+
+				<a href="./index.html" class="logo">
+					<!-- <img src="./assets/img/logo.svg" alt="navbar brand" class="navbar-brand"> -->
+					West Bengal Elections
+				</a>
+				<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse"
+					data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon">
+						<i class="icon-menu"></i>
+					</span>
+				</button>
+				<!-- <button class="topbar-toggler more"><i class="icon-options-vertical"></i></button> -->
+				<div class="nav-toggle">
+					<button class="btn btn-toggle toggle-sidebar">
+						<i class="icon-menu"></i>
+					</button>
+				</div>
+			</div>
+			<!-- End Logo Header -->
+
+			<!-- Navbar Header -->
+			<nav class="navbar navbar-header navbar-expand-lg" data-background-color="dark">
+
+				<div class="container-fluid">
+
+
+
+					<!-- <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false">
+								<div class="avatar-sm">
+									<img src="../assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
+								</div>
+							</a> -->
+					<ul class="dropdown-menu dropdown-user animated fadeIn">
+						<div class="dropdown-user-scroll scrollbar-outer">
+
+							<li>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">My Profile</a>
+								<a class="dropdown-item" href="#">My Balance</a>
+								<a class="dropdown-item" href="#">Inbox</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Account Setting</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Logout</a>
+							</li>
+						</div>
+					</ul>
+					</li>
+					</ul>
+				</div>
+			</nav>
+			<!-- End Navbar -->
+		</div>
+		
+		<!-- Sidebar -->
+		<div class="sidebar sidebar-style-2" data-background-color="dark2">
+
+			<div class="sidebar-wrapper scrollbar scrollbar-inner">
+				<div class="sidebar-content">
+
+					<ul class="nav nav-primary">
+						<!-- <li class="nav-item">
+							<a data-toggle="collapse" href="#dashboard" class="collapsed" aria-expanded="false">
+								<i class="fas fa-home"></i>
+								<p>Dashboard</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="dashboard">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="./constituency.html">
+											<span class="sub-item">constituency</span>
+										</a>
+									</li>
+									<li>
+										<a href="../../demo2/index.html">
+											<span class="sub-item">Dashboard 2</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-section">
+							<span class="sidebar-mini-icon">
+								<i class="fa fa-ellipsis-h"></i>
+							</span>
+							<h4 class="text-section">Components</h4>
+						</li>
+						<li class="nav-item active submenu">
+							<a data-toggle="collapse" href="#charts">
+								<i class="far fa-chart-bar"></i>
+								<p>Charts</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse show" id="charts">
+								<ul class="nav nav-collapse">
+									<li class="active">
+										<a href="../charts/charts.html">
+											<span class="sub-item">Plotly Js</span>
+										</a>
+									</li>
+									<li>
+										<a href="../charts/sparkline.html">
+											<span class="sub-item">Sparkline</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#base">
+								<i class="fas fa-layer-group"></i>
+								<p>Base</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="base">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="../components/avatars.html">
+											<span class="sub-item">Avatars</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/buttons.html">
+											<span class="sub-item">Buttons</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/gridsystem.html">
+											<span class="sub-item">Grid System</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/panels.html">
+											<span class="sub-item">Panels</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/notifications.html">
+											<span class="sub-item">Notifications</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/sweetalert.html">
+											<span class="sub-item">Sweet Alert</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/font-awesome-icons.html">
+											<span class="sub-item">Font Awesome Icons</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/simple-line-icons.html">
+											<span class="sub-item">Simple Line Icons</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/flaticons.html">
+											<span class="sub-item">Flaticons</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/typography.html">
+											<span class="sub-item">Typography</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#sidebarLayouts">
+								<i class="fas fa-th-list"></i>
+								<p>Sidebar Layouts</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="sidebarLayouts">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="../sidebar-style-1.html">
+											<span class="sub-item">Sidebar Style 1</span>
+										</a>
+									</li>
+									<li>
+										<a href="../overlay-sidebar.html">
+											<span class="sub-item">Overlay Sidebar</span>
+										</a>
+									</li>
+									<li>
+										<a href="../compact-sidebar.html">
+											<span class="sub-item">Compact Sidebar</span>
+										</a>
+									</li>
+									<li>
+										<a href="../static-sidebar.html">
+											<span class="sub-item">Static Sidebar</span>
+										</a>
+									</li>
+									<li>
+										<a href="../icon-menu.html">
+											<span class="sub-item">Icon Menu</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#forms">
+								<i class="fas fa-pen-square"></i>
+								<p>Forms</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="forms">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="../forms/forms.html">
+											<span class="sub-item">Basic Form</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#tables">
+								<i class="fas fa-table"></i>
+								<p>Tables</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="tables">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="../tables/tables.html">
+											<span class="sub-item">Basic Table</span>
+										</a>
+									</li>
+									<li>
+										<a href="../tables/datatables.html">
+											<span class="sub-item">Datatables</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#maps">
+								<i class="fas fa-map-marker-alt"></i>
+								<p>Maps</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="maps">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="../maps/jqvmap.html">
+											<span class="sub-item">JQVMap</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a href="../widgets.html">
+								<i class="fas fa-desktop"></i>
+								<p>Widgets</p>
+								<span class="badge badge-success">4</span>
+							</a>
+						</li>  -->
+						<li class="nav-item">
+							<a href="./index.html">
+								<i class="fas fa-clipboard"></i>
+								<p>Dashboard</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./successful-candidates.html">
+								<i class="fas fa-list-ul"></i>
+								<p>List of Successful<br>Candidates</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./list-of-political-parties-participated.html">
+								<i class="far fa-list-alt"></i>
+								<p>List Of Political Parties<br>Participated</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./highlight.html">
+								<i class="fas fa-highlighter"></i>
+								<p>Highlight</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./electors-data-summary.html">
+								<i class="fas fa-digital-tachograph"></i>
+								<p>Electors Data Summary</p>
+							</a>
+						</li>
+						<li class="nav-item active">
+							<a href="./women-candidate.html">
+								<i class="fas fa-female"></i>
+								<p>Individual Performance<br>Of Women Candidate</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./constituency.html">
+								<i class="fas fa-desktop"></i>
+								<p>Constituency Data<br>Summary</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./candidate.html">
+								<i class="fas fa-address-card"></i>
+								<p>Candidate Data Summary</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./detailed-results.html">
+								<i class="fas fa-atlas"></i>
+								<p>Detailed Results</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./abbreviations.html">
+								<i class="fas fa-compress"></i>
+								<p>Abbreviations</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./annxure.html">
+								<i class="fas fa-book-open"></i>
+								<p>ANNXURE - 1<br>(ELECTORS DATA<br>SUMMARY)</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- End Sidebar -->
+
+		<div class="main-panel">
+			<div class="content">
+				<div class="container">
+					<table class="table table-dark table-bordered m-1" id="myTable">
+						<thead>
+							<tr>
+								<!-- <th scope="col">Sl No.</th> -->
+								<th scope="col">Name of candidate</th>
+								<th scope="col">Party</th>
+								<th scope="col">Party Type</th>
+								<th scope="col">Votes Secured</th>
+								<th scope="col">% of votes secured over total electors</th>
+								<th scope="col">% of votes secured over total votes polled</th>
+								<th scope="col">Status</th>
+								<th scope="col">Total Valid votes</th>
+								<th scope="col">AC Name</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<!-- <td>6</td> -->
+								<td>CHINU ROY BARMAN</td>
+								<td>AMB</td>
+								<td>U</td>
+								<td>400</td>
+								<td>0.18</td>
+								<td>0.2</td>
+								<td>DF</td>
+								<td>198744</td>
+								<td>Mekliganj</td>
+							</tr>
+							<tr>
+								<!-- <td>8</td> -->
+								<td>GOLAPI ROY</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>511</td>
+								<td>0.23</td>
+								<td>0.26</td>
+								<td>DF</td>
+								<td>198744</td>
+								<td>Mekliganj</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>Nazma Khandakar</td>
+								<td>SUCI</td>
+								<td>U</td>
+								<td>1138</td>
+								<td>0.49</td>
+								<td>0.58</td>
+								<td>DF</td>
+								<td>195505</td>
+								<td>Cooch Behar Dakshin</td>
+							</tr>
+							<tr>
+								<!-- <td>7</td> -->
+								<td>Anamika Paul</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>739</td>
+								<td>0.32</td>
+								<td>0.38</td>
+								<td>DF</td>
+								<td>195505</td>
+								<td>Cooch Behar Dakshin</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>Malati Rava Roy</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>114503</td>
+								<td>48.87</td>
+								<td>54.69</td>
+								<td>W</td>
+								<td>209378</td>
+								<td>Tufanganj</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>KALAWATI CHIK BARAIK</td>
+								<td>JD(U)</td>
+								<td>U</td>
+								<td>1399</td>
+								<td>0.51</td>
+								<td>0.6</td>
+								<td>DF</td>
+								<td>232489</td>
+								<td>Kumargram</td>
+							</tr>
+							<tr>
+								<!-- <td>10</td> -->
+								<td>REKHA LAKRA (EKKA)</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>2251</td>
+								<td>0.91</td>
+								<td>1.15</td>
+								<td>DF</td>
+								<td>195815</td>
+								<td>Kalchini</td>
+							</tr>
+							<tr>
+								<!-- <td>9</td> -->
+								<td>RINKU GHOSH</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>1393</td>
+								<td>0.53</td>
+								<td>0.63</td>
+								<td>DF</td>
+								<td>222732</td>
+								<td>Alipurduars</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>MITALI ROY</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>100333</td>
+								<td>38.13</td>
+								<td>43.75</td>
+								<td>L</td>
+								<td>229323</td>
+								<td>Dhupguri</td>
+							</tr>
+							<tr>
+								<!-- <td>8</td> -->
+								<td>RAKHI SARKAR</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>1556</td>
+								<td>0.59</td>
+								<td>0.69</td>
+								<td>DF</td>
+								<td>225933</td>
+								<td>Jalpaiguri</td>
+							</tr>
+							<tr>
+								<!-- <td>6</td> -->
+								<td>TAPATI ROY (BARMAN)</td>
+								<td>KPPU</td>
+								<td>U</td>
+								<td>1860</td>
+								<td>0.76</td>
+								<td>0.86</td>
+								<td>DF</td>
+								<td>215755</td>
+								<td>Rajganj</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>Sikha Chatterjee</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>129088</td>
+								<td>41.59</td>
+								<td>49.85</td>
+								<td>W</td>
+								<td>258969</td>
+								<td>Dabgram-Fulbari</td>
+							</tr>
+							<tr>
+								<!-- <td>9</td> -->
+								<td>Rakhi Mandal</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>1093</td>
+								<td>0.35</td>
+								<td>0.42</td>
+								<td>DF</td>
+								<td>258969</td>
+								<td>Dabgram-Fulbari</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>GITA ORAON</td>
+								<td>SUCI</td>
+								<td>U</td>
+								<td>3008</td>
+								<td>1.18</td>
+								<td>1.41</td>
+								<td>DF</td>
+								<td>213255</td>
+								<td>Mal</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>ANJANI SHARMA</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>1677</td>
+								<td>0.68</td>
+								<td>0.99</td>
+								<td>DF</td>
+								<td>168575</td>
+								<td>Darjeeling</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>Tshering Lama</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>57960</td>
+								<td>24.51</td>
+								<td>33.02</td>
+								<td>L</td>
+								<td>175545</td>
+								<td>Kurseong</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>Kakali Majumdar (Roy)</td>
+								<td>BSP</td>
+								<td>N</td>
+								<td>1255</td>
+								<td>0.55</td>
+								<td>0.7</td>
+								<td>DF</td>
+								<td>178650</td>
+								<td>Siliguri</td>
+							</tr>
+							<tr>
+								<!-- <td>7</td> -->
+								<td>Dipti Roy</td>
+								<td>SUCI</td>
+								<td>U</td>
+								<td>379</td>
+								<td>0.17</td>
+								<td>0.21</td>
+								<td>DF</td>
+								<td>178650</td>
+								<td>Siliguri</td>
+							</tr>
+							<tr>
+								<!-- <td>7</td> -->
+								<td>Sumanti Ekka</td>
+								<td>CPI(ML)(L)</td>
+								<td>U</td>
+								<td>2787</td>
+								<td>1.16</td>
+								<td>1.34</td>
+								<td>DF</td>
+								<td>207590</td>
+								<td>Phansidewa</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>CHANDIMA ROY</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>89210</td>
+								<td>33.62</td>
+								<td>39.95</td>
+								<td>L</td>
+								<td>223301</td>
+								<td>Hemtabad</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>BAHAMONI HANSDA</td>
+								<td>BMUP</td>
+								<td>U</td>
+								<td>133</td>
+								<td>0.07</td>
+								<td>0.08</td>
+								<td>DF</td>
+								<td>161347</td>
+								<td>Raiganj</td>
+							</tr>
+							<tr>
+								<!-- <td>10</td> -->
+								<td>MANJU DAS (MANDAL)</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>196</td>
+								<td>0.1</td>
+								<td>0.12</td>
+								<td>DF</td>
+								<td>161347</td>
+								<td>Raiganj</td>
+							</tr>
+							<tr>
+								<!-- <td>11</td> -->
+								<td>MINAKSHI ROY</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>465</td>
+								<td>0.23</td>
+								<td>0.29</td>
+								<td>DF</td>
+								<td>161347</td>
+								<td>Raiganj</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>REKHA ROY</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>89968</td>
+								<td>40.91</td>
+								<td>48.88</td>
+								<td>W</td>
+								<td>184075</td>
+								<td>Kushmandi</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>CHAUDHURI NARGIS BANU</td>
+								<td>INC</td>
+								<td>N</td>
+								<td>17478</td>
+								<td>8.57</td>
+								<td>10.23</td>
+								<td>DF</td>
+								<td>170928</td>
+								<td>Kumarganj</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>Sucheta Biswas</td>
+								<td>RSP</td>
+								<td>S</td>
+								<td>16153</td>
+								<td>8.95</td>
+								<td>10.62</td>
+								<td>DF</td>
+								<td>152092</td>
+								<td>Balurghat</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>KALPANA KISKU</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>82731</td>
+								<td>37.56</td>
+								<td>44.41</td>
+								<td>L</td>
+								<td>186309</td>
+								<td>Tapan</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>BASANTI BARMAN</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>98857</td>
+								<td>37.01</td>
+								<td>44.69</td>
+								<td>L</td>
+								<td>221214</td>
+								<td>Gazole</td>
+							</tr>
+							<tr>
+								<!-- <td>6</td> -->
+								<td>Minu Sarkar (Barman)</td>
+								<td>KPPU</td>
+								<td>U</td>
+								<td>741</td>
+								<td>0.28</td>
+								<td>0.33</td>
+								<td>DF</td>
+								<td>221214</td>
+								<td>Gazole</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>MOUSUMI DAS</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>34208</td>
+								<td>14.75</td>
+								<td>18.44</td>
+								<td>L</td>
+								<td>185484</td>
+								<td>Malatipur</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>Khatun Najema</td>
+								<td>INC</td>
+								<td>N</td>
+								<td>16173</td>
+								<td>5.73</td>
+								<td>7.38</td>
+								<td>DF</td>
+								<td>219148</td>
+								<td>Ratua</td>
+							</tr>
+							<tr>
+								<!-- <td>7</td> -->
+								<td>Payel Khatun</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>8628</td>
+								<td>3.05</td>
+								<td>3.94</td>
+								<td>DF</td>
+								<td>219148</td>
+								<td>Ratua</td>
+							</tr>
+							<tr>
+								<!-- <td>8</td> -->
+								<td>Sabina Easmin</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>856</td>
+								<td>0.3</td>
+								<td>0.39</td>
+								<td>DF</td>
+								<td>219148</td>
+								<td>Ratua</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>CHANCHALA KARMAKAR</td>
+								<td>BSP</td>
+								<td>N</td>
+								<td>1740</td>
+								<td>0.69</td>
+								<td>0.84</td>
+								<td>DF</td>
+								<td>206991</td>
+								<td>Manikchak</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>SABITRI MITRA</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>110234</td>
+								<td>43.51</td>
+								<td>53.26</td>
+								<td>W</td>
+								<td>206991</td>
+								<td>Manikchak</td>
+							</tr>
+							<tr>
+								<!-- <td>8</td> -->
+								<td>SUMITRA DAS</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>826</td>
+								<td>0.33</td>
+								<td>0.4</td>
+								<td>DF</td>
+								<td>206991</td>
+								<td>Manikchak</td>
+							</tr>
+							<tr>
+								<!-- <td>6</td> -->
+								<td>Mirana Sarkar</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>931</td>
+								<td>0.38</td>
+								<td>0.45</td>
+								<td>DF</td>
+								<td>206489</td>
+								<td>Maldaha</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>SREERUPA MITRA CHAUDHURY(NIRBHOY DIDI)</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>107755</td>
+								<td>39.14</td>
+								<td>49.96</td>
+								<td>W</td>
+								<td>215675</td>
+								<td>Englishbazar</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>UMA DAS (PAUL)</td>
+								<td>JD(U)</td>
+								<td>U</td>
+								<td>275</td>
+								<td>0.1</td>
+								<td>0.13</td>
+								<td>DF</td>
+								<td>215675</td>
+								<td>Englishbazar</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>YEASMIN SABINA</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>97397</td>
+								<td>49.61</td>
+								<td>59.7</td>
+								<td>W</td>
+								<td>163143</td>
+								<td>Mothabari</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>MST AKTARI KHATUN</td>
+								<td>KPPU</td>
+								<td>U</td>
+								<td>556</td>
+								<td>0.28</td>
+								<td>0.34</td>
+								<td>DF</td>
+								<td>163143</td>
+								<td>Mothabari</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>CHANDANA SARKAR</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>83061</td>
+								<td>33.63</td>
+								<td>39.81</td>
+								<td>W</td>
+								<td>208652</td>
+								<td>Baisnabnagar</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>KHATUN MAFUJA</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>44983</td>
+								<td>18.99</td>
+								<td>24.08</td>
+								<td>L</td>
+								<td>186816</td>
+								<td>Sagardighi</td>
+							</tr>
+							<tr>
+								<!-- <td>9</td> -->
+								<td>SANTA BHATTACHERJEE</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>530</td>
+								<td>0.22</td>
+								<td>0.28</td>
+								<td>DF</td>
+								<td>186816</td>
+								<td>Sagardighi</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>KALPANA GHOSH</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>29464</td>
+								<td>12.57</td>
+								<td>15.47</td>
+								<td>DF</td>
+								<td>190438</td>
+								<td>Lalgola</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>KAKALI DEBNATH</td>
+								<td>LJP</td>
+								<td>U</td>
+								<td>417</td>
+								<td>0.18</td>
+								<td>0.22</td>
+								<td>DF</td>
+								<td>190438</td>
+								<td>Lalgola</td>
+							</tr>
+							<tr>
+								<!-- <td>6</td> -->
+								<td>NAJIMA KAYAL</td>
+								<td>SDPI</td>
+								<td>U</td>
+								<td>954</td>
+								<td>0.41</td>
+								<td>0.5</td>
+								<td>DF</td>
+								<td>190438</td>
+								<td>Lalgola</td>
+							</tr>
+							<tr>
+								<!-- <td>8</td> -->
+								<td>MST. SIKHA KHATUN</td>
+								<td>BAHUMP</td>
+								<td>U</td>
+								<td>421</td>
+								<td>0.16</td>
+								<td>0.19</td>
+								<td>DF</td>
+								<td>225990</td>
+								<td>Bhagabangola</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>FIROZA BEGAM</td>
+								<td>INC</td>
+								<td>N</td>
+								<td>55255</td>
+								<td>21.58</td>
+								<td>24.89</td>
+								<td>L</td>
+								<td>222016</td>
+								<td>Raninagar</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>MST MASUARA KHATUN</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>21138</td>
+								<td>8.25</td>
+								<td>9.52</td>
+								<td>DF</td>
+								<td>222016</td>
+								<td>Raninagar</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>RULIYA PARVIN</td>
+								<td>BSP</td>
+								<td>N</td>
+								<td>587</td>
+								<td>0.23</td>
+								<td>0.26</td>
+								<td>DF</td>
+								<td>222016</td>
+								<td>Raninagar</td>
+							</tr>
+							<tr>
+								<!-- <td>7</td> -->
+								<td>NASRIN NAHER LUCY</td>
+								<td>SUCI</td>
+								<td>U</td>
+								<td>501</td>
+								<td>0.2</td>
+								<td>0.23</td>
+								<td>DF</td>
+								<td>222016</td>
+								<td>Raninagar</td>
+							</tr>
+							<tr>
+								<!-- <td>9</td> -->
+								<td>SAIRA BIBI</td>
+								<td>UTSAP</td>
+								<td>U</td>
+								<td>202</td>
+								<td>0.08</td>
+								<td>0.09</td>
+								<td>DF</td>
+								<td>222016</td>
+								<td>Raninagar</td>
+							</tr>
+							<tr>
+								<!-- <td>10</td> -->
+								<td>FIROZA BIBI</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>884</td>
+								<td>0.35</td>
+								<td>0.4</td>
+								<td>DF</td>
+								<td>222016</td>
+								<td>Raninagar</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>SHAONI SINGHA ROY</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>93476</td>
+								<td>34.85</td>
+								<td>40.78</td>
+								<td>L</td>
+								<td>229231</td>
+								<td>Murshidabad</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>MILIA SAJEM</td>
+								<td>SUCI</td>
+								<td>U</td>
+								<td>1004</td>
+								<td>0.37</td>
+								<td>0.44</td>
+								<td>DF</td>
+								<td>229231</td>
+								<td>Murshidabad</td>
+							</tr>
+							<tr>
+								<!-- <td>8</td> -->
+								<td>GOURI DAS SARKAR</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>753</td>
+								<td>0.28</td>
+								<td>0.33</td>
+								<td>DF</td>
+								<td>229231</td>
+								<td>Murshidabad</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>KRIPALINI GHOSH</td>
+								<td>CPI(M)</td>
+								<td>N</td>
+								<td>39129</td>
+								<td>15.57</td>
+								<td>18.77</td>
+								<td>L</td>
+								<td>208516</td>
+								<td>Nabagram</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>TULU BALA DAS</td>
+								<td>CPI(ML)(L)</td>
+								<td>U</td>
+								<td>1511</td>
+								<td>0.66</td>
+								<td>0.81</td>
+								<td>DF</td>
+								<td>185936</td>
+								<td>Khargram</td>
+							</tr>
+							<tr>
+								<!-- <td>6</td> -->
+								<td>KAJAL GHOSH BISWAS</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>1968</td>
+								<td>0.78</td>
+								<td>0.96</td>
+								<td>DF</td>
+								<td>204511</td>
+								<td>Beldanga</td>
+							</tr>
+							<tr>
+								<!-- <td>6</td> -->
+								<td>Rekha Roy</td>
+								<td>BMUP</td>
+								<td>U</td>
+								<td>414</td>
+								<td>0.16</td>
+								<td>0.21</td>
+								<td>DF</td>
+								<td>197607</td>
+								<td>Baharampur</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>SAHINA MOMTAZ KHAN</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>117684</td>
+								<td>47.51</td>
+								<td>58.16</td>
+								<td>W</td>
+								<td>202349</td>
+								<td>Naoda</td>
+							</tr>
+							<tr>
+								<!-- <td>9</td> -->
+								<td>SAHINA MAMTAJ</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>949</td>
+								<td>0.38</td>
+								<td>0.47</td>
+								<td>DF</td>
+								<td>202349</td>
+								<td>Naoda</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>BIYAMMA MONDAL (RUBIA)</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>12348</td>
+								<td>4.64</td>
+								<td>5.46</td>
+								<td>DF</td>
+								<td>226183</td>
+								<td>Domkal</td>
+							</tr>
+							<tr>
+								<!-- <td>10</td> -->
+								<td>RAFIKA SULTANA</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>4189</td>
+								<td>1.6</td>
+								<td>1.89</td>
+								<td>DF</td>
+								<td>222167</td>
+								<td>Jalangi</td>
+							</tr>
+							<tr>
+								<!-- <td>7</td> -->
+								<td>Mousumi Saha Mandal</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>695</td>
+								<td>0.28</td>
+								<td>0.31</td>
+								<td>DF</td>
+								<td>221506</td>
+								<td>Karimpur</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>SUJATA MANDAL</td>
+								<td>BSP</td>
+								<td>N</td>
+								<td>1567</td>
+								<td>0.63</td>
+								<td>0.75</td>
+								<td>DF</td>
+								<td>209379</td>
+								<td>Kaliganj</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>Sukla Saha</td>
+								<td>CPI(M)</td>
+								<td>N</td>
+								<td>5365</td>
+								<td>2.17</td>
+								<td>2.56</td>
+								<td>DF</td>
+								<td>209570</td>
+								<td>Nakashipara</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>KOUSHANI MUKHERJEE</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>74268</td>
+								<td>31.18</td>
+								<td>36.8</td>
+								<td>L</td>
+								<td>201805</td>
+								<td>Krishnanagar Uttar</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>SILVI SAHA</td>
+								<td>INC</td>
+								<td>N</td>
+								<td>11407</td>
+								<td>4.79</td>
+								<td>5.65</td>
+								<td>DF</td>
+								<td>201805</td>
+								<td>Krishnanagar Uttar</td>
+							</tr>
+							<tr>
+								<!-- <td>6</td> -->
+								<td>DIPIKA PRAMANIK</td>
+								<td>PMPT</td>
+								<td>U</td>
+								<td>1460</td>
+								<td>0.61</td>
+								<td>0.72</td>
+								<td>DF</td>
+								<td>201805</td>
+								<td>Krishnanagar Uttar</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>APARNA GUHA</td>
+								<td>SUCI</td>
+								<td>U</td>
+								<td>1068</td>
+								<td>0.4</td>
+								<td>0.48</td>
+								<td>DF</td>
+								<td>223193</td>
+								<td>Ranaghat Uttar Paschim</td>
+							</tr>
+							<tr>
+								<!-- <td>7</td> -->
+								<td>ALPANA BANDYOPADHYAY</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>1070</td>
+								<td>0.4</td>
+								<td>0.48</td>
+								<td>DF</td>
+								<td>223193</td>
+								<td>Ranaghat Uttar Paschim</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>JHUNU BAIDYA</td>
+								<td>CPI(M)</td>
+								<td>N</td>
+								<td>10913</td>
+								<td>3.99</td>
+								<td>4.71</td>
+								<td>DF</td>
+								<td>231938</td>
+								<td>Krishnaganj</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>DIPALI BISWAS</td>
+								<td>BSP</td>
+								<td>N</td>
+								<td>1801</td>
+								<td>0.66</td>
+								<td>0.78</td>
+								<td>DF</td>
+								<td>231938</td>
+								<td>Krishnaganj</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>BARNALI DEY ROY</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>102745</td>
+								<td>36.03</td>
+								<td>42.51</td>
+								<td>L</td>
+								<td>241687</td>
+								<td>Ranaghat Dakshin</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>RAMA BISWAS</td>
+								<td>CPI(M)</td>
+								<td>N</td>
+								<td>15124</td>
+								<td>5.3</td>
+								<td>6.26</td>
+								<td>DF</td>
+								<td>241687</td>
+								<td>Ranaghat Dakshin</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>NILIMA NAG (MALLICK)</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>82466</td>
+								<td>34.27</td>
+								<td>39.11</td>
+								<td>L</td>
+								<td>210874</td>
+								<td>Haringhata</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>SUNITI MALLICK</td>
+								<td>BSP</td>
+								<td>N</td>
+								<td>1082</td>
+								<td>0.43</td>
+								<td>0.53</td>
+								<td>DF</td>
+								<td>205175</td>
+								<td>Bangaon Uttar</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>ARPITA MONDAL</td>
+								<td>AMB</td>
+								<td>U</td>
+								<td>425</td>
+								<td>0.17</td>
+								<td>0.21</td>
+								<td>DF</td>
+								<td>205175</td>
+								<td>Bangaon Uttar</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>ALO RANI SARKAR</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>95824</td>
+								<td>38.6</td>
+								<td>46.11</td>
+								<td>L</td>
+								<td>207834</td>
+								<td>Bangaon Dakshin</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>BEAUTY SARKAR</td>
+								<td>BSP</td>
+								<td>N</td>
+								<td>1385</td>
+								<td>0.55</td>
+								<td>0.65</td>
+								<td>DF</td>
+								<td>213243</td>
+								<td>Gaighata</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>NANIBALA BISWAS (DAS)</td>
+								<td>SUCI</td>
+								<td>U</td>
+								<td>814</td>
+								<td>0.32</td>
+								<td>0.38</td>
+								<td>DF</td>
+								<td>213243</td>
+								<td>Gaighata</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>BINA MONDAL</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>99784</td>
+								<td>40.54</td>
+								<td>47.11</td>
+								<td>W</td>
+								<td>211804</td>
+								<td>Swarupnagar</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>TANUJA CHAKRABORTY</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>70055</td>
+								<td>27.24</td>
+								<td>32.32</td>
+								<td>L</td>
+								<td>216724</td>
+								<td>Ashoknagar</td>
+							</tr>
+							<tr>
+								<!-- <td>7</td> -->
+								<td>TANUJA CHAKRABORTY</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>1556</td>
+								<td>0.61</td>
+								<td>0.72</td>
+								<td>DF</td>
+								<td>216724</td>
+								<td>Ashoknagar</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>INDRANI KUNDU MUKHERJEE</td>
+								<td>CPI(M)</td>
+								<td>N</td>
+								<td>15825</td>
+								<td>8.16</td>
+								<td>10.11</td>
+								<td>DF</td>
+								<td>156468</td>
+								<td>Naihati</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>PHALGUNI PATRA</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>58898</td>
+								<td>30.37</td>
+								<td>37.64</td>
+								<td>L</td>
+								<td>156468</td>
+								<td>Naihati</td>
+							</tr>
+							<tr>
+								<!-- <td>9</td> -->
+								<td>SABARI CHOWDHURY</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>610</td>
+								<td>0.4</td>
+								<td>0.57</td>
+								<td>DF</td>
+								<td>107197</td>
+								<td>Bhatpara</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>MANJU BASU</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>94203</td>
+								<td>35.93</td>
+								<td>48.9</td>
+								<td>W</td>
+								<td>192634</td>
+								<td>Noapara</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>DR. ARCHANA MAJUMDAR</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>66966</td>
+								<td>24.53</td>
+								<td>31.42</td>
+								<td>L</td>
+								<td>213149</td>
+								<td>Dum Dum Uttar</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>CHANDRIMA BHATTACHARYA</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>95465</td>
+								<td>34.97</td>
+								<td>44.79</td>
+								<td>W</td>
+								<td>213149</td>
+								<td>Dum Dum Uttar</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>SOVA HOWLADER</td>
+								<td>BSP</td>
+								<td>N</td>
+								<td>1005</td>
+								<td>0.37</td>
+								<td>0.47</td>
+								<td>DF</td>
+								<td>213149</td>
+								<td>Dum Dum Uttar</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>MANISHA DASGUPTA</td>
+								<td>SUCI</td>
+								<td>U</td>
+								<td>887</td>
+								<td>0.38</td>
+								<td>0.51</td>
+								<td>DF</td>
+								<td>174356</td>
+								<td>Panihati</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>BIDISHA ROYCHOWDHURY</td>
+								<td>PDS</td>
+								<td>U</td>
+								<td>488</td>
+								<td>0.25</td>
+								<td>0.34</td>
+								<td>DF</td>
+								<td>144310</td>
+								<td>Kamarhati</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>PARNO MITTRA</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>50468</td>
+								<td>23.17</td>
+								<td>31.49</td>
+								<td>L</td>
+								<td>160259</td>
+								<td>Baranagar</td>
+							</tr>
+							<tr>
+								<!-- <td>7</td> -->
+								<td>RUPA SARKAR</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>774</td>
+								<td>0.31</td>
+								<td>0.42</td>
+								<td>DF</td>
+								<td>185334</td>
+								<td>Dum Dum</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>SMRITI KANA HOWLADER</td>
+								<td>BSP</td>
+								<td>N</td>
+								<td>611</td>
+								<td>0.25</td>
+								<td>0.38</td>
+								<td>DF</td>
+								<td>162035</td>
+								<td>Bidhannagar</td>
+							</tr>
+							<tr>
+								<!-- <td>9</td> -->
+								<td>SUSOMA LOHO</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>421</td>
+								<td>0.17</td>
+								<td>0.26</td>
+								<td>DF</td>
+								<td>162035</td>
+								<td>Bidhannagar</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>ADITI MUNSHI</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>87650</td>
+								<td>34.05</td>
+								<td>49.04</td>
+								<td>W</td>
+								<td>178723</td>
+								<td>Rajarhat Gopalpur</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>RINA DEY</td>
+								<td>BNARP</td>
+								<td>U</td>
+								<td>370</td>
+								<td>0.14</td>
+								<td>0.21</td>
+								<td>DF</td>
+								<td>178723</td>
+								<td>Rajarhat Gopalpur</td>
+							</tr>
+							<tr>
+								<!-- <td>8</td> -->
+								<td>INDRANI HALDER</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>84</td>
+								<td>0.03</td>
+								<td>0.05</td>
+								<td>DF</td>
+								<td>178723</td>
+								<td>Rajarhat Gopalpur</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>RAJASREE RAJBANSHI</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>64615</td>
+								<td>23.72</td>
+								<td>28.04</td>
+								<td>L</td>
+								<td>230431</td>
+								<td>Madhyamgram</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>KSHAMA DEBNATH (PANDA)</td>
+								<td>SUCI</td>
+								<td>U</td>
+								<td>418</td>
+								<td>0.15</td>
+								<td>0.19</td>
+								<td>DF</td>
+								<td>225707</td>
+								<td>Barasat</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>DIPIKA CHATTARJEE</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>38446</td>
+								<td>15.84</td>
+								<td>17.93</td>
+								<td>L</td>
+								<td>214380</td>
+								<td>Deganga</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>RAHIMA MONDAL</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>100105</td>
+								<td>41.25</td>
+								<td>46.7</td>
+								<td>W</td>
+								<td>214380</td>
+								<td>Deganga</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>USHA RANI MONDAL</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>109818</td>
+								<td>46.43</td>
+								<td>51.72</td>
+								<td>W</td>
+								<td>212352</td>
+								<td>Minakhan</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>TASLIMA KHATUN</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>2014</td>
+								<td>0.75</td>
+								<td>0.84</td>
+								<td>DF</td>
+								<td>238426</td>
+								<td>Basirhat Uttar</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>KANAN BALA MONDAL</td>
+								<td>BSP</td>
+								<td>N</td>
+								<td>1432</td>
+								<td>0.54</td>
+								<td>0.63</td>
+								<td>DF</td>
+								<td>227351</td>
+								<td>Kultali</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>PARBATI BHUNIA</td>
+								<td>BSP</td>
+								<td>N</td>
+								<td>1630</td>
+								<td>0.66</td>
+								<td>0.74</td>
+								<td>DF</td>
+								<td>219597</td>
+								<td>Kakdwip</td>
+							</tr>
+							<tr>
+								<!-- <td>6</td> -->
+								<td>MAYA BAG</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>759</td>
+								<td>0.29</td>
+								<td>0.35</td>
+								<td>DF</td>
+								<td>218354</td>
+								<td>Canning Paschim</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>NAMITA SAHA</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>110945</td>
+								<td>45.74</td>
+								<td>53.82</td>
+								<td>W</td>
+								<td>206153</td>
+								<td>Magrahat Purba</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>MONARAMA HALDER</td>
+								<td>SUCI</td>
+								<td>U</td>
+								<td>469</td>
+								<td>0.18</td>
+								<td>0.21</td>
+								<td>DF</td>
+								<td>225397</td>
+								<td>Diamond Harbour</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>JHUMA KAYAL</td>
+								<td>CPI(M)</td>
+								<td>N</td>
+								<td>17995</td>
+								<td>6.46</td>
+								<td>7.57</td>
+								<td>DF</td>
+								<td>237570</td>
+								<td>Bishnupur</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>ANJANA BASU</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>83041</td>
+								<td>28.81</td>
+								<td>35.67</td>
+								<td>L</td>
+								<td>232807</td>
+								<td>Sonarpur Dakshin</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>ARUNDHUTI MAITRA (LOVELY)</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>109222</td>
+								<td>37.89</td>
+								<td>46.92</td>
+								<td>W</td>
+								<td>232807</td>
+								<td>Sonarpur Dakshin</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>TRAYEE PRADHAN</td>
+								<td>RTORP</td>
+								<td>U</td>
+								<td>372</td>
+								<td>0.13</td>
+								<td>0.16</td>
+								<td>DF</td>
+								<td>232807</td>
+								<td>Sonarpur Dakshin</td>
+							</tr>
+							<tr>
+								<!-- <td>14</td> -->
+								<td>SHAMPA DAS</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>1907</td>
+								<td>0.66</td>
+								<td>0.82</td>
+								<td>DF</td>
+								<td>232807</td>
+								<td>Sonarpur Dakshin</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>SOUMI HATI</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>38726</td>
+								<td>14.24</td>
+								<td>15.99</td>
+								<td>DF</td>
+								<td>242185</td>
+								<td>Bhangar</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>SHAMPA SARKAR</td>
+								<td>SUCI</td>
+								<td>U</td>
+								<td>673</td>
+								<td>0.22</td>
+								<td>0.3</td>
+								<td>DF</td>
+								<td>223154</td>
+								<td>Kasba</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>RINKU NASKAR</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>53139</td>
+								<td>17.72</td>
+								<td>24.67</td>
+								<td>L</td>
+								<td>215419</td>
+								<td>Jadavpur</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>MONALISA GUPTA (DEBROY)</td>
+								<td>PDS</td>
+								<td>U</td>
+								<td>385</td>
+								<td>0.13</td>
+								<td>0.18</td>
+								<td>DF</td>
+								<td>215419</td>
+								<td>Jadavpur</td>
+							</tr>
+							<tr>
+								<!-- <td>11</td> -->
+								<td>MEGHA CHATTERJEE</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>400</td>
+								<td>0.13</td>
+								<td>0.19</td>
+								<td>DF</td>
+								<td>215419</td>
+								<td>Jadavpur</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>FIRDOUSI BEGUM</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>119957</td>
+								<td>39.94</td>
+								<td>49.88</td>
+								<td>W</td>
+								<td>240495</td>
+								<td>Sonarpur Uttar</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>MONALISA SINHA</td>
+								<td>CPI(M)</td>
+								<td>N</td>
+								<td>29400</td>
+								<td>9.79</td>
+								<td>12.22</td>
+								<td>DF</td>
+								<td>240495</td>
+								<td>Sonarpur Uttar</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>ANINDITA BASU</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>133</td>
+								<td>0.05</td>
+								<td>0.07</td>
+								<td>DF</td>
+								<td>197365</td>
+								<td>Tollyganj</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>Payel Sarkar</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>73540</td>
+								<td>23.85</td>
+								<td>33.15</td>
+								<td>L</td>
+								<td>221872</td>
+								<td>Behala Purba</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>Ratna Chatterjee</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>110968</td>
+								<td>36</td>
+								<td>50.01</td>
+								<td>W</td>
+								<td>221872</td>
+								<td>Behala Purba</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>Rina Roy</td>
+								<td>BSP</td>
+								<td>N</td>
+								<td>1175</td>
+								<td>0.38</td>
+								<td>0.53</td>
+								<td>DF</td>
+								<td>221872</td>
+								<td>Behala Purba</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>Samita Har Chowdhury</td>
+								<td>CPI(M)</td>
+								<td>N</td>
+								<td>30172</td>
+								<td>9.79</td>
+								<td>13.6</td>
+								<td>DF</td>
+								<td>221872</td>
+								<td>Behala Purba</td>
+							</tr>
+							<tr>
+								<!-- <td>11</td> -->
+								<td>Tulsi Rani Pramanik</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>1167</td>
+								<td>0.38</td>
+								<td>0.53</td>
+								<td>DF</td>
+								<td>221872</td>
+								<td>Behala Purba</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>SRABANTI CHATTERJEE</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>63894</td>
+								<td>20.4</td>
+								<td>27.56</td>
+								<td>L</td>
+								<td>231816</td>
+								<td>Behala Paschim</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>ARUNA RAY</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>532</td>
+								<td>0.17</td>
+								<td>0.23</td>
+								<td>DF</td>
+								<td>231816</td>
+								<td>Behala Paschim</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>RINA DEBI</td>
+								<td>BSP</td>
+								<td>N</td>
+								<td>838</td>
+								<td>0.31</td>
+								<td>0.38</td>
+								<td>DF</td>
+								<td>219969</td>
+								<td>Maheshtala</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>FIROZA KHATUN</td>
+								<td>JSTDVPMTP</td>
+								<td>U</td>
+								<td>311</td>
+								<td>0.12</td>
+								<td>0.16</td>
+								<td>DF</td>
+								<td>196582</td>
+								<td>Metiaburuz</td>
+							</tr>
+							<tr>
+								<!-- <td>6</td> -->
+								<td>PRANATI PAUL</td>
+								<td>AMB</td>
+								<td>U</td>
+								<td>829</td>
+								<td>0.32</td>
+								<td>0.42</td>
+								<td>DF</td>
+								<td>196582</td>
+								<td>Metiaburuz</td>
+							</tr>
+							<tr>
+								<!-- <td>7</td> -->
+								<td>SABNAM BIBI</td>
+								<td>AIMF</td>
+								<td>U</td>
+								<td>409</td>
+								<td>0.16</td>
+								<td>0.21</td>
+								<td>DF</td>
+								<td>196582</td>
+								<td>Metiaburuz</td>
+							</tr>
+							<tr>
+								<!-- <td>9</td> -->
+								<td>Kalpana Chohan</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>428</td>
+								<td>0.18</td>
+								<td>0.28</td>
+								<td>DF</td>
+								<td>152443</td>
+								<td>Kolkata Port</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>Anita Rajwar</td>
+								<td>BSP</td>
+								<td>N</td>
+								<td>564</td>
+								<td>0.27</td>
+								<td>0.44</td>
+								<td>DF</td>
+								<td>127376</td>
+								<td>Bhabanipur</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>SUSMITA PAL</td>
+								<td>SUCI</td>
+								<td>U</td>
+								<td>546</td>
+								<td>0.27</td>
+								<td>0.44</td>
+								<td>DF</td>
+								<td>124455</td>
+								<td>Rashbehari</td>
+							</tr>
+							<tr>
+								<!-- <td>9</td> -->
+								<td>MUSARAT PARVEEN</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>134</td>
+								<td>0.07</td>
+								<td>0.11</td>
+								<td>DF</td>
+								<td>124455</td>
+								<td>Rashbehari</td>
+							</tr>
+							<tr>
+								<!-- <td>6</td> -->
+								<td>CHHANDA SAHA</td>
+								<td>BNARP</td>
+								<td>U</td>
+								<td>580</td>
+								<td>0.23</td>
+								<td>0.38</td>
+								<td>DF</td>
+								<td>150962</td>
+								<td>Ballygunge</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>BANDYOPADHYAY NAYNA</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>70101</td>
+								<td>33.67</td>
+								<td>62.87</td>
+								<td>W</td>
+								<td>111493</td>
+								<td>Chowrangee</td>
+							</tr>
+							<tr>
+								<!-- <td>7</td> -->
+								<td>MANIKA PAUL</td>
+								<td>SUCI</td>
+								<td>U</td>
+								<td>204</td>
+								<td>0.1</td>
+								<td>0.18</td>
+								<td>DF</td>
+								<td>111493</td>
+								<td>Chowrangee</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>Priyanka Tibrewal</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>43452</td>
+								<td>18.83</td>
+								<td>27.7</td>
+								<td>L</td>
+								<td>156874</td>
+								<td>Entally</td>
+							</tr>
+							<tr>
+								<!-- <td>8</td> -->
+								<td>Swarnalata Sarkar</td>
+								<td>BNARP</td>
+								<td>U</td>
+								<td>132</td>
+								<td>0.06</td>
+								<td>0.08</td>
+								<td>DF</td>
+								<td>156874</td>
+								<td>Entally</td>
+							</tr>
+							<tr>
+								<!-- <td>13</td> -->
+								<td>Mousumi Roy</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>770</td>
+								<td>0.33</td>
+								<td>0.49</td>
+								<td>DF</td>
+								<td>156874</td>
+								<td>Entally</td>
+							</tr>
+							<tr>
+								<!-- <td>15</td> -->
+								<td>Saleha Tabassum</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>671</td>
+								<td>0.29</td>
+								<td>0.43</td>
+								<td>DF</td>
+								<td>156874</td>
+								<td>Entally</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>MEENA DEVI PUROHIT</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>39380</td>
+								<td>19.89</td>
+								<td>39.8</td>
+								<td>L</td>
+								<td>98955</td>
+								<td>Jorasanko</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>Dr. SHASHI PANJA</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>55785</td>
+								<td>31.6</td>
+								<td>54.18</td>
+								<td>W</td>
+								<td>102970</td>
+								<td>Shyampukur</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>MUNNI MALI</td>
+								<td>SJSMP</td>
+								<td>U</td>
+								<td>409</td>
+								<td>0.23</td>
+								<td>0.4</td>
+								<td>DF</td>
+								<td>102970</td>
+								<td>Shyampukur</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>Chhaya Ghosh</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>122</td>
+								<td>0.07</td>
+								<td>0.12</td>
+								<td>DF</td>
+								<td>102970</td>
+								<td>Shyampukur</td>
+							</tr>
+							<tr>
+								<!-- <td>9</td> -->
+								<td>PURNIMA BANERJEE</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>94</td>
+								<td>0.05</td>
+								<td>0.09</td>
+								<td>DF</td>
+								<td>102970</td>
+								<td>Shyampukur</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>Rupa Bagchi</td>
+								<td>CPI(M)</td>
+								<td>N</td>
+								<td>13513</td>
+								<td>6.39</td>
+								<td>10.16</td>
+								<td>DF</td>
+								<td>132967</td>
+								<td>Maniktola</td>
+							</tr>
+							<tr>
+								<!-- <td>8</td> -->
+								<td>Moumita Manna</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>240</td>
+								<td>0.11</td>
+								<td>0.18</td>
+								<td>DF</td>
+								<td>132967</td>
+								<td>Maniktola</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>DIPSITA DHAR</td>
+								<td>CPI(M)</td>
+								<td>N</td>
+								<td>22040</td>
+								<td>12.51</td>
+								<td>17.51</td>
+								<td>L</td>
+								<td>125873</td>
+								<td>Bally</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>BAISHALI DALMIYA</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>47110</td>
+								<td>26.74</td>
+								<td>37.43</td>
+								<td>L</td>
+								<td>125873</td>
+								<td>Bally</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>PUTUL CHOWDHURY</td>
+								<td>SUCI</td>
+								<td>U</td>
+								<td>442</td>
+								<td>0.25</td>
+								<td>0.35</td>
+								<td>DF</td>
+								<td>125873</td>
+								<td>Bally</td>
+							</tr>
+							<tr>
+								<!-- <td>6</td> -->
+								<td>UJJWALA BISWAS</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>82</td>
+								<td>0.05</td>
+								<td>0.07</td>
+								<td>DF</td>
+								<td>125873</td>
+								<td>Bally</td>
+							</tr>
+							<tr>
+								<!-- <td>9</td> -->
+								<td>MAYA SAMANTA</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>172</td>
+								<td>0.1</td>
+								<td>0.14</td>
+								<td>DF</td>
+								<td>125873</td>
+								<td>Bally</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>Anamika Singh</td>
+								<td>JD(U)</td>
+								<td>U</td>
+								<td>545</td>
+								<td>0.2</td>
+								<td>0.28</td>
+								<td>DF</td>
+								<td>195144</td>
+								<td>Howrah Madhya</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>NANDITA CHOWDHURY</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>116839</td>
+								<td>39.71</td>
+								<td>53.86</td>
+								<td>W</td>
+								<td>216940</td>
+								<td>Howrah Dakshin</td>
+							</tr>
+							<tr>
+								<!-- <td>7</td> -->
+								<td>MAMATA BANERJEE</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>322</td>
+								<td>0.11</td>
+								<td>0.15</td>
+								<td>DF</td>
+								<td>216940</td>
+								<td>Howrah Dakshin</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>PRIYA PAUL</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>111888</td>
+								<td>40.37</td>
+								<td>50.37</td>
+								<td>W</td>
+								<td>222127</td>
+								<td>Sankrail</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>PAPIA DEY (ADHIKARY)</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>73442</td>
+								<td>30.9</td>
+								<td>36.31</td>
+								<td>L</td>
+								<td>202266</td>
+								<td>Uluberia Dakshin</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>TNUSREE CHAKRABORTY</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>83293</td>
+								<td>32.34</td>
+								<td>37.54</td>
+								<td>L</td>
+								<td>221889</td>
+								<td>Shyampur</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>Pampa Sarkar Bera</td>
+								<td>SUCI</td>
+								<td>U</td>
+								<td>464</td>
+								<td>0.2</td>
+								<td>0.23</td>
+								<td>DF</td>
+								<td>199935</td>
+								<td>Bagnan</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>RAJANI BEGUM</td>
+								<td>BNARP</td>
+								<td>U</td>
+								<td>1300</td>
+								<td>0.43</td>
+								<td>0.52</td>
+								<td>DF</td>
+								<td>250978</td>
+								<td>Domjur</td>
+							</tr>
+							<tr>
+								<!-- <td>6</td> -->
+								<td>NANDITA ROY</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>218</td>
+								<td>0.07</td>
+								<td>0.09</td>
+								<td>DF</td>
+								<td>250978</td>
+								<td>Domjur</td>
+							</tr>
+							<tr>
+								<!-- <td>10</td> -->
+								<td>SANCHAYITA GHOSH</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>172</td>
+								<td>0.06</td>
+								<td>0.07</td>
+								<td>DF</td>
+								<td>250978</td>
+								<td>Domjur</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>TANDRA BHATTACHARJEE (TANDRADI)</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>365</td>
+								<td>0.16</td>
+								<td>0.2</td>
+								<td>DF</td>
+								<td>182178</td>
+								<td>Chandannagar</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>Locket Chatterjee</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>98687</td>
+								<td>31.4</td>
+								<td>38.74</td>
+								<td>L</td>
+								<td>254737</td>
+								<td>Chunchura</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>Ajanta Sarkar</td>
+								<td>SP(I)</td>
+								<td>U</td>
+								<td>1042</td>
+								<td>0.33</td>
+								<td>0.41</td>
+								<td>DF</td>
+								<td>254737</td>
+								<td>Chunchura</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>MAHAMAYA MONDAL</td>
+								<td>CPI(M)</td>
+								<td>N</td>
+								<td>19766</td>
+								<td>7.63</td>
+								<td>8.99</td>
+								<td>DF</td>
+								<td>219957</td>
+								<td>Balagarh</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>Mina Roy</td>
+								<td>BSP</td>
+								<td>N</td>
+								<td>1650</td>
+								<td>0.61</td>
+								<td>0.74</td>
+								<td>DF</td>
+								<td>223664</td>
+								<td>Pandua</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>Dr. Ratna De Nag</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>102874</td>
+								<td>38.03</td>
+								<td>45.99</td>
+								<td>W</td>
+								<td>223664</td>
+								<td>Pandua</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>SWATI KHANDOKER</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>103118</td>
+								<td>39.17</td>
+								<td>49.79</td>
+								<td>W</td>
+								<td>207106</td>
+								<td>Chanditala</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>TANUSREE GHOSH</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>661</td>
+								<td>0.26</td>
+								<td>0.31</td>
+								<td>DF</td>
+								<td>210411</td>
+								<td>Jangipara</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>Dr. Karabi Manna</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>110215</td>
+								<td>40.87</td>
+								<td>49.92</td>
+								<td>W</td>
+								<td>220774</td>
+								<td>Haripal</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>ASIMA PATRA</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>124776</td>
+								<td>45.95</td>
+								<td>53.36</td>
+								<td>W</td>
+								<td>233838</td>
+								<td>Dhanekhali</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>MONIKA MALIK GHOSH</td>
+								<td>INC</td>
+								<td>N</td>
+								<td>7828</td>
+								<td>3.01</td>
+								<td>3.51</td>
+								<td>DF</td>
+								<td>223074</td>
+								<td>Pursurah</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>SUJATA MONDAL</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>95936</td>
+								<td>37.24</td>
+								<td>43.62</td>
+								<td>L</td>
+								<td>219960</td>
+								<td>Arambag</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>PHIROJA BIBI</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>111705</td>
+								<td>40.75</td>
+								<td>47.71</td>
+								<td>W</td>
+								<td>234141</td>
+								<td>Panskura Paschim</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>PREETILATA DAS TEWARI</td>
+								<td>LJP</td>
+								<td>U</td>
+								<td>817</td>
+								<td>0.3</td>
+								<td>0.35</td>
+								<td>DF</td>
+								<td>234141</td>
+								<td>Panskura Paschim</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>Kar Paik Manika</td>
+								<td>CPI(M)</td>
+								<td>N</td>
+								<td>22688</td>
+								<td>9.04</td>
+								<td>10.27</td>
+								<td>DF</td>
+								<td>220823</td>
+								<td>Haldia</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>Tapasi Mondal</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>104126</td>
+								<td>41.48</td>
+								<td>47.15</td>
+								<td>W</td>
+								<td>220823</td>
+								<td>Haldia</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>Mamata Banerjee</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>108808</td>
+								<td>42.17</td>
+								<td>47.64</td>
+								<td>L</td>
+								<td>228405</td>
+								<td>Nandigram</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>Minakshi Mukherjee</td>
+								<td>CPI(M)</td>
+								<td>N</td>
+								<td>6267</td>
+								<td>2.43</td>
+								<td>2.74</td>
+								<td>DF</td>
+								<td>228405</td>
+								<td>Nandigram</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>SUMITA SINHA</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>113524</td>
+								<td>44.1</td>
+								<td>49.7</td>
+								<td>W</td>
+								<td>228416</td>
+								<td>Kanthi Uttar</td>
+							</tr>
+							<tr>
+								<!-- <td>8</td> -->
+								<td>LIRIKA MUKTAR</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>652</td>
+								<td>0.25</td>
+								<td>0.29</td>
+								<td>DF</td>
+								<td>228416</td>
+								<td>Kanthi Uttar</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>SHRABANI PAHARI</td>
+								<td>SUCI</td>
+								<td>U</td>
+								<td>1136</td>
+								<td>0.51</td>
+								<td>0.58</td>
+								<td>DF</td>
+								<td>194681</td>
+								<td>Kanthi Dakshin</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>ARATI PAHARI</td>
+								<td>SUCI</td>
+								<td>U</td>
+								<td>944</td>
+								<td>0.36</td>
+								<td>0.43</td>
+								<td>DF</td>
+								<td>222060</td>
+								<td>Ramnagar</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>TRAYEE PRADHAN</td>
+								<td>RTORP</td>
+								<td>U</td>
+								<td>405</td>
+								<td>0.15</td>
+								<td>0.18</td>
+								<td>DF</td>
+								<td>222060</td>
+								<td>Ramnagar</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>BIRBAHA HANSDA</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>109493</td>
+								<td>46.39</td>
+								<td>54.26</td>
+								<td>W</td>
+								<td>201797</td>
+								<td>Jhargram</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>MADHUJA SEN ROY</td>
+								<td>CPI(M)</td>
+								<td>N</td>
+								<td>10430</td>
+								<td>4.42</td>
+								<td>5.17</td>
+								<td>DF</td>
+								<td>201797</td>
+								<td>Jhargram</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>ARCHANA SAIN</td>
+								<td>SUCI</td>
+								<td>U</td>
+								<td>1193</td>
+								<td>0.51</td>
+								<td>0.59</td>
+								<td>DF</td>
+								<td>201797</td>
+								<td>Jhargram</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>SONALI MURMU SOREN</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>91036</td>
+								<td>38.12</td>
+								<td>42.8</td>
+								<td>L</td>
+								<td>212681</td>
+								<td>Keshiary</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>REETA SHARMA</td>
+								<td>INC</td>
+								<td>N</td>
+								<td>10791</td>
+								<td>4.6</td>
+								<td>6.3</td>
+								<td>DF</td>
+								<td>171385</td>
+								<td>Kharagpur Sadar</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>ANTARA BHATTACHARYYA</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>105779</td>
+								<td>41.47</td>
+								<td>46.26</td>
+								<td>L</td>
+								<td>228669</td>
+								<td>Pingla</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>BARSHA MAHAPATRA</td>
+								<td>AMB</td>
+								<td>U</td>
+								<td>617</td>
+								<td>0.27</td>
+								<td>0.31</td>
+								<td>DF</td>
+								<td>200044</td>
+								<td>Kharagpur</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>BHARATI GHOSH</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>84624</td>
+								<td>36.14</td>
+								<td>41.31</td>
+								<td>L</td>
+								<td>204866</td>
+								<td>Debra</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>MAMATA BHUNIA</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>114753</td>
+								<td>38.5</td>
+								<td>51.58</td>
+								<td>W</td>
+								<td>222464</td>
+								<td>Daspur</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>Uttara Singha (Hazra)</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>94928</td>
+								<td>40.91</td>
+								<td>45.71</td>
+								<td>W</td>
+								<td>207681</td>
+								<td>Garbeta</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>Seuli Saha</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>116992</td>
+								<td>44.73</td>
+								<td>50.81</td>
+								<td>W</td>
+								<td>230232</td>
+								<td>Keshpur</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>June Maliah</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>121175</td>
+								<td>43.27</td>
+								<td>50.72</td>
+								<td>W</td>
+								<td>238898</td>
+								<td>Medinipur</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>ANANDI TUDU</td>
+								<td>BSP</td>
+								<td>N</td>
+								<td>1416</td>
+								<td>0.59</td>
+								<td>0.72</td>
+								<td>DF</td>
+								<td>197965</td>
+								<td>Balarampur</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>Rani Mahato</td>
+								<td>SUCI</td>
+								<td>U</td>
+								<td>1209</td>
+								<td>0.47</td>
+								<td>0.58</td>
+								<td>DF</td>
+								<td>206868</td>
+								<td>Purulia</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>GOURI SINGH SARDAR</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>87782</td>
+								<td>34.6</td>
+								<td>41.07</td>
+								<td>L</td>
+								<td>213729</td>
+								<td>Manbazar</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>SANDHYARANI TUDU</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>103298</td>
+								<td>40.72</td>
+								<td>48.33</td>
+								<td>W</td>
+								<td>213729</td>
+								<td>Manbazar</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>MALLIKA MAHATA</td>
+								<td>CPI(M)</td>
+								<td>N</td>
+								<td>10927</td>
+								<td>4.57</td>
+								<td>5.61</td>
+								<td>DF</td>
+								<td>194892</td>
+								<td>Kashipur</td>
+							</tr>
+							<tr>
+								<!-- <td>6</td> -->
+								<td>BABITA BOURI</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>772</td>
+								<td>0.32</td>
+								<td>0.4</td>
+								<td>DF</td>
+								<td>194021</td>
+								<td>Para</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>BAURI CHANDANA</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>91648</td>
+								<td>39.42</td>
+								<td>45.28</td>
+								<td>W</td>
+								<td>202413</td>
+								<td>Saltora</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>Jyotsna Mandi</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>90928</td>
+								<td>35.89</td>
+								<td>43.06</td>
+								<td>W</td>
+								<td>211170</td>
+								<td>Ranibandh</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>Deblina Hembram</td>
+								<td>CPI(M)</td>
+								<td>N</td>
+								<td>20057</td>
+								<td>7.92</td>
+								<td>9.5</td>
+								<td>DF</td>
+								<td>211170</td>
+								<td>Ranibandh</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>RADHARANI BANERJEE</td>
+								<td>INC</td>
+								<td>N</td>
+								<td>13764</td>
+								<td>5.1</td>
+								<td>6.31</td>
+								<td>DF</td>
+								<td>217986</td>
+								<td>Bankura</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>SAYANTIKA BANERJEE</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>93998</td>
+								<td>34.84</td>
+								<td>43.12</td>
+								<td>L</td>
+								<td>217986</td>
+								<td>Bankura</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>LINA GHOSH</td>
+								<td>SUCI</td>
+								<td>U</td>
+								<td>1720</td>
+								<td>0.64</td>
+								<td>0.79</td>
+								<td>DF</td>
+								<td>217986</td>
+								<td>Bankura</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>SUPRITI CHATTERJEE</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>90021</td>
+								<td>35.9</td>
+								<td>41.02</td>
+								<td>L</td>
+								<td>219452</td>
+								<td>Barjora</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>ARCHITA BID</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>78269</td>
+								<td>35.69</td>
+								<td>40.88</td>
+								<td>L</td>
+								<td>191469</td>
+								<td>Bishnupur</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>SANGEETA MALIK</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>94237</td>
+								<td>38.19</td>
+								<td>42.05</td>
+								<td>L</td>
+								<td>224123</td>
+								<td>Katulpur</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>RUNU METE</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>97716</td>
+								<td>40.22</td>
+								<td>44.73</td>
+								<td>L</td>
+								<td>218453</td>
+								<td>Indus</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>ASIMA ROY</td>
+								<td>CPI(M)</td>
+								<td>N</td>
+								<td>22923</td>
+								<td>9.44</td>
+								<td>10.52</td>
+								<td>DF</td>
+								<td>217897</td>
+								<td>Khandaghosh</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>PUSPA HANSDA</td>
+								<td>BSP</td>
+								<td>N</td>
+								<td>1455</td>
+								<td>0.56</td>
+								<td>0.71</td>
+								<td>DF</td>
+								<td>205345</td>
+								<td>Burdwan Dakshin</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>PRITHA TAH</td>
+								<td>CPI(M)</td>
+								<td>N</td>
+								<td>23346</td>
+								<td>9.05</td>
+								<td>11.37</td>
+								<td>DF</td>
+								<td>205345</td>
+								<td>Burdwan Dakshin</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>Shampa Dhara</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>108752</td>
+								<td>42.03</td>
+								<td>47.46</td>
+								<td>W</td>
+								<td>229166</td>
+								<td>Raina</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>KALPANA MANDAL</td>
+								<td>BSP</td>
+								<td>N</td>
+								<td>2121</td>
+								<td>0.83</td>
+								<td>0.97</td>
+								<td>DF</td>
+								<td>218802</td>
+								<td>Memari</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>Shyama Majumdar</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>98739</td>
+								<td>36.88</td>
+								<td>43.99</td>
+								<td>L</td>
+								<td>224459</td>
+								<td>Katwa</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>KALITA MAJI</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>88577</td>
+								<td>35.87</td>
+								<td>40.8</td>
+								<td>L</td>
+								<td>217080</td>
+								<td>Ausgram</td>
+							</tr>
+							<tr>
+								<!-- <td>6</td> -->
+								<td>BIJOY LAXMI PANDEY</td>
+								<td>RPPRINAT</td>
+								<td>U</td>
+								<td>528</td>
+								<td>0.21</td>
+								<td>0.27</td>
+								<td>DF</td>
+								<td>192674</td>
+								<td>Durgapur Purba</td>
+							</tr>
+							<tr>
+								<!-- <td>8</td> -->
+								<td>CHANDRA MALLIKA BANDOPADHYAY</td>
+								<td>IND</td>
+								<td>Z</td>
+								<td>2038</td>
+								<td>0.76</td>
+								<td>1.04</td>
+								<td>DF</td>
+								<td>196902</td>
+								<td>Durgapur Paschim</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>AISHE GHOSH</td>
+								<td>CPI(M)</td>
+								<td>N</td>
+								<td>24818</td>
+								<td>11.21</td>
+								<td>14.89</td>
+								<td>DF</td>
+								<td>166703</td>
+								<td>Jamuria</td>
+							</tr>
+							<tr>
+								<!-- <td>1</td> -->
+								<td>AGNIMITRA PAUL</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>87881</td>
+								<td>32.04</td>
+								<td>45.13</td>
+								<td>W</td>
+								<td>194737</td>
+								<td>Asnsol Dakshin</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>SAYANI GHOSH</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>83394</td>
+								<td>30.41</td>
+								<td>42.82</td>
+								<td>L</td>
+								<td>194737</td>
+								<td>Asnsol Dakshin</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>SHIULI RUIDAS</td>
+								<td>BMUP</td>
+								<td>U</td>
+								<td>1157</td>
+								<td>0.42</td>
+								<td>0.59</td>
+								<td>DF</td>
+								<td>194737</td>
+								<td>Asnsol Dakshin</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>SHYAMALI PRADHAN</td>
+								<td>CPI(M)</td>
+								<td>N</td>
+								<td>12878</td>
+								<td>4.65</td>
+								<td>5.47</td>
+								<td>DF</td>
+								<td>235328</td>
+								<td>Nanoor</td>
+							</tr>
+							<tr>
+								<!-- <td>2</td> -->
+								<td>NILABATI SAHA</td>
+								<td>AITC</td>
+								<td>N</td>
+								<td>110572</td>
+								<td>43.2</td>
+								<td>49.84</td>
+								<td>W</td>
+								<td>221866</td>
+								<td>Sainthia</td>
+							</tr>
+							<tr>
+								<!-- <td>3</td> -->
+								<td>PIYA SAHA</td>
+								<td>BJP</td>
+								<td>N</td>
+								<td>95329</td>
+								<td>37.24</td>
+								<td>42.97</td>
+								<td>L</td>
+								<td>221866</td>
+								<td>Sainthia</td>
+							</tr>
+							<tr>
+								<!-- <td>4</td> -->
+								<td>MAUSUMI KONAI</td>
+								<td>CPI(M)</td>
+								<td>N</td>
+								<td>10369</td>
+								<td>4.05</td>
+								<td>4.67</td>
+								<td>DF</td>
+								<td>221866</td>
+								<td>Sainthia</td>
+							</tr>
+							<tr>
+								<!-- <td>6</td> -->
+								<td>FORIDA YASMIN (KEYA)</td>
+								<td>SUCI</td>
+								<td>U</td>
+								<td>960</td>
+								<td>0.37</td>
+								<td>0.44</td>
+								<td>DF</td>
+								<td>217323</td>
+								<td>Rampurhat</td>
+							</tr>
+							<tr>
+								<!-- <td>5</td> -->
+								<td>JUTHIKA DHIBAR</td>
+								<td>SUCI</td>
+								<td>U</td>
+								<td>1229</td>
+								<td>0.5</td>
+								<td>0.58</td>
+								<td>DF</td>
+								<td>210606</td>
+								<td>Hansan</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<footer class="footer">
+				<!-- <div class="container-fluid">
+					<nav class="pull-left">
+						<ul class="nav">
+							<li class="nav-item">
+								<a class="nav-link" href="https://www.themekita.com">
+									ThemeKita
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Help
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Licenses
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="copyright ml-auto">
+						2018, made with <i class="fa fa-heart heart text-danger"></i> by <a href="https://www.themekita.com">ThemeKita</a>
+					</div>				
+				</div> -->
+				<div class="container-fluid">
+					<div class="copyright ml-auto">
+						2021, made with <i class="fa fa-heart heart text-danger"></i> by Root2AI.
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<!-- Custom template | don't include it in your project! -->
+		<!-- <div class="custom-template">
+			<div class="title">Settings</div>
+			<div class="custom-content">
+				<div class="switcher">
+					<div class="switch-block">
+						<h4>Logo Header</h4>
+						<div class="btnSwitch">
+							<button type="button" class="changeLogoHeaderColor" data-color="dark"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="blue"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="purple"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="light-blue"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="green"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="orange"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="red"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="white"></button>
+							<br/>
+							<button type="button" class="selected changeLogoHeaderColor" data-color="dark2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="blue2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="purple2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="light-blue2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="green2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="orange2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="red2"></button>
+						</div>
+					</div>
+					<div class="switch-block">
+						<h4>Navbar Header</h4>
+						<div class="btnSwitch">
+							<button type="button" class="selected changeTopBarColor" data-color="dark"></button>
+							<button type="button" class="changeTopBarColor" data-color="blue"></button>
+							<button type="button" class="changeTopBarColor" data-color="purple"></button>
+							<button type="button" class="changeTopBarColor" data-color="light-blue"></button>
+							<button type="button" class="changeTopBarColor" data-color="green"></button>
+							<button type="button" class="changeTopBarColor" data-color="orange"></button>
+							<button type="button" class="changeTopBarColor" data-color="red"></button>
+							<button type="button" class="changeTopBarColor" data-color="white"></button>
+							<br/>
+							<button type="button" class="changeTopBarColor" data-color="dark2"></button>
+							<button type="button" class="changeTopBarColor" data-color="blue2"></button>
+							<button type="button" class="changeTopBarColor" data-color="purple2"></button>
+							<button type="button" class="changeTopBarColor" data-color="light-blue2"></button>
+							<button type="button" class="changeTopBarColor" data-color="green2"></button>
+							<button type="button" class="changeTopBarColor" data-color="orange2"></button>
+							<button type="button" class="changeTopBarColor" data-color="red2"></button>
+						</div>
+					</div>
+					<div class="switch-block">
+						<h4>Sidebar</h4>
+						<div class="btnSwitch">
+							<button type="button" class="changeSideBarColor" data-color="white"></button>
+							<button type="button" class="changeSideBarColor" data-color="dark"></button>
+							<button type="button" class="selected changeSideBarColor" data-color="dark2"></button>
+						</div>
+					</div>
+					<div class="switch-block">
+						<h4>Background</h4>
+						<div class="btnSwitch">
+							<button type="button" class="changeBackgroundColor" data-color="bg2"></button>
+							<button type="button" class="changeBackgroundColor selected" data-color="bg1"></button>
+							<button type="button" class="changeBackgroundColor" data-color="bg3"></button>
+							<button type="button" class="selected changeBackgroundColor" data-color="dark"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="custom-toggle">
+				<i class="flaticon-settings"></i>
+			</div>
+		</div> -->
+		<!-- End Custom template -->
+	</div>
+	<!--   Core JS Files   -->
+	<script src="assets/js/core/jquery.3.2.1.min.js"></script>
+	<script src="assets/js/core/popper.min.js"></script>
+	<script src="assets/js/core/bootstrap.min.js"></script>
+
+	<!-- jQuery UI -->
+	<script src="assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+	<script src="assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+
+	<!-- jQuery Scrollbar -->
+	<script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+
+	<!-- Chart JS -->
+	<script src="assets/js/plugin/chart.js/chart.min.js"></script>
+
+	<!-- jQuery Sparkline -->
+	<script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+
+	<!-- Chart Circle -->
+	<script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+
+	<!-- Datatables -->
+	<script src="assets/js/plugin/datatables/datatables.min.js"></script>
+
+	<!-- Bootstrap Notify -->
+	<!-- <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script> -->
+
+	<!-- jQuery Vector Maps -->
+	<script src="assets/js/plugin/jqvmap/jquery.vmap.min.js"></script>
+	<script src="assets/js/plugin/jqvmap/maps/jquery.vmap.world.js"></script>
+
+	<!-- Sweet Alert -->
+	<script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+	<!-- Atlantis JS -->
+	<script src="assets/js/atlantis.min.js"></script>
+
+	<!-- Atlantis DEMO methods, don't include it in your project! -->
+	<!-- <script src="assets/js/setting-demo.js"></script>
+	<script src="assets/js/demo.js"></script> -->
+
+	<!-- souren js -->
+	<!-- <script src="datasets/ConstituencySummary.js"></script>
+	<script src="assets/js/script.js"></script>
+	<script>
+		$('#lineChart').sparkline([198744,214203,243916,195505,245966,238578,243751,217173,209378,232489,195815,222732,220500,166920,229323,236093,225933,215755,258969,213255,191169,154863,168575,175545,240591,178650,207590,204110,169974,161535,173400,213136,223301,239726,161347,193986,184075,170928,152092,186309,189482,187642,197989,221214,199679,203153,185484,219148,206991,206489,215675,163143,207591,208652,186424,216328,190478,186816,190438,225990,222016,229231,208516,185936,176803,186481,189047,210445,204511,197607,216075,202349,226183,222167,221506,218109,203385,209379,209570,213175,201805,210589,195685,219692,223193,231938,214736,241687,212064,220338,210874,218791,205175,207834,213243,211804,212883,204171,216724,211742,139096,156468,107197,181287,192634,148249,183147,213149,174356,144310,160259,185334,234906,162035,178723,230431,225707,214380,227395,212352,205787,235737,238426,194681,195808,213910,227351,231786,219597,239067,193130,238720,199490,202431,225114,218354,232766,211293,206153,194282,225397,207932,235546,237570,232807,242185,223154,215419,240495,197365,221872,231816,219969,216892,196582,152443,127376,124455,150962,111493,156874,158506,98955,102970,132967,134872,125873,149720,195144,182219,216940,222127,217009,193021,185780,202266,221889,199935,208810,198211,235721,250978,199894,188081,201131,209938,182178,254737,219957,223664,192190,207106,210411,220774,233838,205917,223074,219960,219545,217991,236031,198400,234141,224434,227275,219355,220823,228405,220327,208827,228416,222650,212621,194681,222060,240817,197798,192354,199070,201797,212681,171385,217750,236201,228669,200044,204866,222464,225375,249315,207681,249195,230232,238898,188798,241055,197965,206303,202767,206868,213729,194892,194021,214690,202413,196836,211170,194476,203186,217986,219452,225759,191469,224123,218453,207739,217897,205345,229166,206690,209036,208951,218802,241925,214168,215353,212343,224459,215317,217329,217080,222538,164291,192674,196902,182211,166703,194737,192907,174767,169207,204599,218590,230260,235328,212027,221866,199425,217323,210606,207696,217917], {
+			type: 'line',
+			height: '70',
+			width: '100%',
+			lineWidth: '2',
+			lineColor: 'rgba(255, 255, 255, .5)',
+			fillColor: 'rgba(255, 255, 255, .15)'
+		});
+
+		$('#lineChart2').sparkline([197407,212255,240745,192516,244405,236342,240790,213948,206508,230006,194173,219217,218209,165539,226834,233410,220354,213376,257230,212195,190489,152220,165269,172746,238883,176578,206596,202611,168361,160768,172512,211840,221313,236929,158159,192368,182357,169469,149157,184025,187106,186088,196069,219569,198546,202028,184627,217357,204725,204268,211215,161494,206409,207441,185668,215357,189906,185912,189888,225284,220910,228020,207136,184924,175669,184705,188272,208651,202981,194545,214655,201272,225097,220652,217713,214693,200785,206189,206926,210813,198464,207755,193754,217309,220674,229493,212604,239705,208591,217245,209221,216765,202920,205732,210815,211018,211905,202772,214721,211154,137763,154972,106782,179838,191207,147156,182254,212247,173334,143561,158813,184498,234050,160858,177833,228540,224493,213691,226479,211767,204895,234313,237417,192707,194314,212253,226152,230776,218743,237200,192142,236830,198546,201538,223716,217225,231658,209952,205042,192692,224450,206388,234398,236238,231117,241671,222319,213515,239193,195753,220425,230046,219140,215358,196153,151971,126592,122990,150364,110882,156146,157402,98548,102001,132275,133309,125511,149388,194766,181522,216434,221797,216646,192430,185444,202090,221434,199571,208617,197523,234851,250599,198698,186927,200151,207760,179848,252290,218340,222239,190989,206390,208957,218906,231681,203625,221573,218615,218390,216853,234208,197825,232650,222446,225610,217030,219538,226361,218999,206772,226402,221004,211204,192644,220575,238837,196340,190068,196221,198802,211275,170420,216387,232652,226729,198468,202440,220473,223253,247948,206336,247041,229238,235570,187618,238332,196592,204652,201057,205139,211117,193080,193133,213004,200973,195390,208939,192811,200969,215761,218029,224250,189654,221402,216638,205678,216128,203603,227573,205681,208023,208183,217962,240406,212951,214469,210957,222818,214030,216010,216117,221469,162791,190882,195288,180923,165659,192785,190782,173810,167302,202544,215276,227100,232681,209489,219024,197055,214922,208789,206298,216411], {
+			type: 'line',
+			height: '70',
+			width: '100%',
+			lineWidth: '2',
+			lineColor: 'rgba(255, 255, 255, .5)',
+			fillColor: 'rgba(255, 255, 255, .15)'
+		});
+
+		$('#lineChart3').sparkline([1337,1948,3171,2989,1561,2236,2961,3225,2870,2483,1642,3515,2291,1381,2489,2683,5579,2379,1739,1060,680,2643,3306,2799,1708,2072,994,1499,1613,767,888,1296,1988,2797,3188,1618,1718,1459,2935,2284,2376,1554,1920,1645,1133,1125,857,1791,2266,2221,4460,1649,1182,1211,756,971,572,904,550,706,1106,1211,1380,1012,1134,1776,775,1794,1530,3062,1420,1077,1086,1515,3793,3416,2600,3190,2644,2362,3341,2834,1931,2383,2519,2445,2132,1982,3473,3093,1653,2026,2255,2102,2428,786,978,1399,2003,588,1333,1496,415,1449,1427,1093,893,902,1022,749,1446,836,856,1177,890,1891,1214,689,916,585,892,1424,1009,1974,1494,1657,1199,1010,854,1867,988,1890,944,893,1398,1129,1108,1341,1111,1590,947,1544,1148,1332,1690,514,835,1904,1302,1612,1447,1770,829,1534,429,472,784,1465,598,611,728,1104,407,969,692,1563,362,332,378,697,506,330,363,591,336,176,455,364,193,688,870,379,1196,1154,980,2178,2330,2447,1617,1425,1201,716,1454,1868,2157,2292,1501,1345,1155,1138,1823,575,1491,1988,1665,2325,1285,2044,1328,2055,2014,1646,1417,2037,1485,1980,1458,2286,2849,2995,1406,965,1363,3549,1940,1576,2426,1991,2122,1367,1345,2154,994,3328,1180,2723,1373,1651,1710,1729,2612,1812,888,1686,1440,1446,2231,1665,2217,2225,1423,1509,1815,2721,1815,2061,1769,1742,1593,1009,1013,768,840,1519,1217,884,1386,1641,1287,1319,963,1069,1500,1792,1614,1288,1044,1952,2125,957,1905,2055,3314,3160,2647,2538,2842,2370,2401,1817,1398,1506], {
+			type: 'line',
+			height: '70',
+			width: '100%',
+			lineWidth: '2',
+			lineColor: 'rgba(255, 255, 255, .5)',
+			fillColor: 'rgba(255, 255, 255, .15)'
+		});
+	</script> -->
+	<!-- Rahul -->
+	<script src="./assets/js/women-candidate.js"></script>
+	<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.11.3/datatables.min.js"></script>
+
+</body>
+
+</html>

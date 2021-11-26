@@ -1,4 +1,5 @@
-{
+[
+  {
     "STATE NAME": "West Bengal",
     "AC NO.": 1,
     "AC NAME": "Mekliganj",
@@ -305,7 +306,7 @@
   {
     "STATE NAME": "West Bengal",
     "AC NO.": 3,
-    "AC NAME": "COOCHBEHAR UTTAR",
+    "AC NAME": "Cooch Behar Uttar",
     "CANDIDATE NAME": "1 SUKUMAR ROY",
     "SEX": "MALE",
     "AGE": 52,
@@ -321,7 +322,7 @@
   {
     "STATE NAME": "West Bengal",
     "AC NO.": 3,
-    "AC NAME": "COOCHBEHAR UTTAR",
+    "AC NAME": "Cooch Behar Uttar",
     "CANDIDATE NAME": "2 BINAY KRISHNA BARMAN",
     "SEX": "MALE",
     "AGE": 60,
@@ -337,7 +338,7 @@
   {
     "STATE NAME": "West Bengal",
     "AC NO.": 3,
-    "AC NAME": "COOCHBEHAR UTTAR",
+    "AC NAME": "Cooch Behar Uttar",
     "CANDIDATE NAME": "3 NAGENDRA NATH ROY",
     "SEX": "MALE",
     "AGE": 65,
@@ -353,7 +354,7 @@
   {
     "STATE NAME": "West Bengal",
     "AC NO.": 3,
-    "AC NAME": "COOCHBEHAR UTTAR",
+    "AC NAME": "Cooch Behar Uttar",
     "CANDIDATE NAME": "4 NOTA",
     "SEX": "",
     "AGE": "",
@@ -369,7 +370,7 @@
   {
     "STATE NAME": "West Bengal",
     "AC NO.": 3,
-    "AC NAME": "COOCHBEHAR UTTAR",
+    "AC NAME": "Cooch Behar Uttar",
     "CANDIDATE NAME": "5 ANIL CHANDRA ROY",
     "SEX": "MALE",
     "AGE": 53,
@@ -385,7 +386,7 @@
   {
     "STATE NAME": "West Bengal",
     "AC NO.": 3,
-    "AC NAME": "COOCHBEHAR UTTAR",
+    "AC NAME": "Cooch Behar Uttar",
     "CANDIDATE NAME": "6 NARESH CHANDRA ROY",
     "SEX": "MALE",
     "AGE": 48,
@@ -401,7 +402,7 @@
   {
     "STATE NAME": "West Bengal",
     "AC NO.": 3,
-    "AC NAME": "COOCHBEHAR UTTAR",
+    "AC NAME": "Cooch Behar Uttar",
     "CANDIDATE NAME": "7 SAMARESH RAY",
     "SEX": "MALE",
     "AGE": 39,
@@ -417,7 +418,7 @@
   {
     "STATE NAME": "West Bengal",
     "AC NO.": 3,
-    "AC NAME": "COOCHBEHAR UTTAR",
+    "AC NAME": "Cooch Behar Uttar",
     "CANDIDATE NAME": "8 GOPAL ROY",
     "SEX": "MALE",
     "AGE": 41,
@@ -19633,7 +19634,7 @@
   {
     "STATE NAME": "West Bengal",
     "AC NO.": 146,
-    "AC NAME": "Bishnupur",
+    "AC NAME": "146 Bishnupur",
     "CANDIDATE NAME": "1 DILIP MONDAL",
     "SEX": "MALE",
     "AGE": 54,
@@ -19649,7 +19650,7 @@
   {
     "STATE NAME": "West Bengal",
     "AC NO.": 146,
-    "AC NAME": "Bishnupur",
+    "AC NAME": "146 Bishnupur",
     "CANDIDATE NAME": "2 AGNISWAR NASKAR",
     "SEX": "MALE",
     "AGE": 42,
@@ -19665,7 +19666,7 @@
   {
     "STATE NAME": "West Bengal",
     "AC NO.": 146,
-    "AC NAME": "Bishnupur",
+    "AC NAME": "146 Bishnupur",
     "CANDIDATE NAME": "3 JHUMA KAYAL",
     "SEX": "FEMALE",
     "AGE": 43,
@@ -19681,7 +19682,7 @@
   {
     "STATE NAME": "West Bengal",
     "AC NO.": 146,
-    "AC NAME": "Bishnupur",
+    "AC NAME": "146 Bishnupur",
     "CANDIDATE NAME": "4 RABINDRANATH RANJAN",
     "SEX": "MALE",
     "AGE": 44,
@@ -19697,7 +19698,7 @@
   {
     "STATE NAME": "West Bengal",
     "AC NO.": 146,
-    "AC NAME": "Bishnupur",
+    "AC NAME": "146 Bishnupur",
     "CANDIDATE NAME": "5 NOTA",
     "SEX": "",
     "AGE": "",
@@ -19713,7 +19714,7 @@
   {
     "STATE NAME": "West Bengal",
     "AC NO.": 146,
-    "AC NAME": "Bishnupur",
+    "AC NAME": "146 Bishnupur",
     "CANDIDATE NAME": "6 UTTAM NASKAR",
     "SEX": "MALE",
     "AGE": 39,
@@ -38526,3 +38527,4 @@
     "% VOTES POLLED": 0.4,
     "TOTAL ELECTORS": 263200
   }
+]

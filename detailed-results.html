@@ -1,0 +1,1748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>West Bengal Assembly Election Result 2021</title>
+	<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+	<!-- <link rel="icon" href="assets/img/icon.ico" type="image/x-icon" /> -->
+
+	<!-- Fonts and icons -->
+	<script src="assets/js/plugin/webfont/webfont.min.js"></script>
+	<script>
+		WebFont.load({
+			google: { "families": ["Lato:300,400,700,900"] },
+			custom: { "families": ["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"], urls: ['assets/css/fonts.min.css'] },
+			active: function () {
+				sessionStorage.fonts = true;
+			}
+		});
+	</script>
+
+	<!-- Plotly CDN -->
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+	<!-- CSS Files -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/atlantis.min.css">
+	<link rel="stylesheet" href="assets/css/extra.css">
+
+	<!-- CSS Just for demo purpose, don't include it in your project -->
+	<link rel="stylesheet" href="assets/css/demo.css">
+</head>
+
+<body data-background-color="dark">
+	<div class="wrapper">
+		<div class="main-header">
+			<!-- Logo Header -->
+			<div class="logo-header" data-background-color="dark2">
+
+				<a href="./index.html" class="logo">
+					<!-- <img src="./assets/img/logo.svg" alt="navbar brand" class="navbar-brand"> -->
+					West Bengal Elections
+				</a>
+				<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse"
+					data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon">
+						<i class="icon-menu"></i>
+					</span>
+				</button>
+				<!-- <button class="topbar-toggler more"><i class="icon-options-vertical"></i></button> -->
+				<div class="nav-toggle">
+					<button class="btn btn-toggle toggle-sidebar">
+						<i class="icon-menu"></i>
+					</button>
+				</div>
+			</div>
+			<!-- End Logo Header -->
+
+			<!-- Navbar Header -->
+			<nav class="navbar navbar-header navbar-expand-lg" data-background-color="dark">
+
+				<div class="container-fluid">
+
+
+
+					<!-- <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false">
+								<div class="avatar-sm">
+									<img src="../assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
+								</div>
+							</a> -->
+					<ul class="dropdown-menu dropdown-user animated fadeIn">
+						<div class="dropdown-user-scroll scrollbar-outer">
+
+							<li>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">My Profile</a>
+								<a class="dropdown-item" href="#">My Balance</a>
+								<a class="dropdown-item" href="#">Inbox</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Account Setting</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Logout</a>
+							</li>
+						</div>
+					</ul>
+					</li>
+					</ul>
+				</div>
+			</nav>
+			<!-- End Navbar -->
+		</div>
+		
+		<!-- Sidebar -->
+		<div class="sidebar sidebar-style-2" data-background-color="dark2">
+
+			<div class="sidebar-wrapper scrollbar scrollbar-inner">
+				<div class="sidebar-content">
+
+					<ul class="nav nav-primary">
+						<!-- <li class="nav-item">
+							<a data-toggle="collapse" href="#dashboard" class="collapsed" aria-expanded="false">
+								<i class="fas fa-home"></i>
+								<p>Dashboard</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="dashboard">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="./constituency.html">
+											<span class="sub-item">constituency</span>
+										</a>
+									</li>
+									<li>
+										<a href="../../demo2/index.html">
+											<span class="sub-item">Dashboard 2</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-section">
+							<span class="sidebar-mini-icon">
+								<i class="fa fa-ellipsis-h"></i>
+							</span>
+							<h4 class="text-section">Components</h4>
+						</li>
+						<li class="nav-item active submenu">
+							<a data-toggle="collapse" href="#charts">
+								<i class="far fa-chart-bar"></i>
+								<p>Charts</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse show" id="charts">
+								<ul class="nav nav-collapse">
+									<li class="active">
+										<a href="../charts/charts.html">
+											<span class="sub-item">Plotly Js</span>
+										</a>
+									</li>
+									<li>
+										<a href="../charts/sparkline.html">
+											<span class="sub-item">Sparkline</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#base">
+								<i class="fas fa-layer-group"></i>
+								<p>Base</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="base">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="../components/avatars.html">
+											<span class="sub-item">Avatars</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/buttons.html">
+											<span class="sub-item">Buttons</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/gridsystem.html">
+											<span class="sub-item">Grid System</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/panels.html">
+											<span class="sub-item">Panels</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/notifications.html">
+											<span class="sub-item">Notifications</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/sweetalert.html">
+											<span class="sub-item">Sweet Alert</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/font-awesome-icons.html">
+											<span class="sub-item">Font Awesome Icons</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/simple-line-icons.html">
+											<span class="sub-item">Simple Line Icons</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/flaticons.html">
+											<span class="sub-item">Flaticons</span>
+										</a>
+									</li>
+									<li>
+										<a href="../components/typography.html">
+											<span class="sub-item">Typography</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#sidebarLayouts">
+								<i class="fas fa-th-list"></i>
+								<p>Sidebar Layouts</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="sidebarLayouts">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="../sidebar-style-1.html">
+											<span class="sub-item">Sidebar Style 1</span>
+										</a>
+									</li>
+									<li>
+										<a href="../overlay-sidebar.html">
+											<span class="sub-item">Overlay Sidebar</span>
+										</a>
+									</li>
+									<li>
+										<a href="../compact-sidebar.html">
+											<span class="sub-item">Compact Sidebar</span>
+										</a>
+									</li>
+									<li>
+										<a href="../static-sidebar.html">
+											<span class="sub-item">Static Sidebar</span>
+										</a>
+									</li>
+									<li>
+										<a href="../icon-menu.html">
+											<span class="sub-item">Icon Menu</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#forms">
+								<i class="fas fa-pen-square"></i>
+								<p>Forms</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="forms">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="../forms/forms.html">
+											<span class="sub-item">Basic Form</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#tables">
+								<i class="fas fa-table"></i>
+								<p>Tables</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="tables">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="../tables/tables.html">
+											<span class="sub-item">Basic Table</span>
+										</a>
+									</li>
+									<li>
+										<a href="../tables/datatables.html">
+											<span class="sub-item">Datatables</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#maps">
+								<i class="fas fa-map-marker-alt"></i>
+								<p>Maps</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="maps">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="../maps/jqvmap.html">
+											<span class="sub-item">JQVMap</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a href="../widgets.html">
+								<i class="fas fa-desktop"></i>
+								<p>Widgets</p>
+								<span class="badge badge-success">4</span>
+							</a>
+						</li>  -->
+						<li class="nav-item">
+							<a href="./index.html">
+								<i class="fas fa-clipboard"></i>
+								<p>Dashboard</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./successful-candidates.html">
+								<i class="fas fa-list-ul"></i>
+								<p>List of Successful<br>Candidates</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./list-of-political-parties-participated.html">
+								<i class="far fa-list-alt"></i>
+								<p>List Of Political Parties<br>Participated</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./highlight.html">
+								<i class="fas fa-highlighter"></i>
+								<p>Highlight</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./electors-data-summary.html">
+								<i class="fas fa-digital-tachograph"></i>
+								<p>Electors Data Summary</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./women-candidate.html">
+								<i class="fas fa-female"></i>
+								<p>Individual Performance<br>Of Women Candidate</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./constituency.html">
+								<i class="fas fa-desktop"></i>
+								<p>Constituency Data<br>Summary</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./candidate.html">
+								<i class="fas fa-address-card"></i>
+								<p>Candidate Data Summary</p>
+							</a>
+						</li>
+						<li class="nav-item active">
+							<a href="./detailed-results.html">
+								<i class="fas fa-atlas"></i>
+								<p>Detailed Results</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./abbreviations.html">
+								<i class="fas fa-compress"></i>
+								<p>Abbreviations</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="./annxure.html">
+								<i class="fas fa-book-open"></i>
+								<p>ANNXURE - 1<br>(ELECTORS DATA<br>SUMMARY)</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- End Sidebar -->
+
+		<div class="main-panel">
+			<div class="content">
+				<div class="container">
+					<div class="select-box">
+						<div class="options-container">
+
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Mekliganj" name="category">
+								<label for="Mekliganj">Mekliganj</label>
+							</div>
+
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Mathabhanga" name="category">
+								<label for="Mathabhanga">Mathabhanga</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Cooch Behar Uttar" name="category">
+								<label for="Cooch Behar Uttar">Cooch Behar Uttar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Cooch Behar Dakshin" name="category">
+								<label for="Cooch Behar Dakshin">Cooch Behar Dakshin</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Sitalkuchi" name="category">
+								<label for="Sitalkuchi">Sitalkuchi</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Sitai" name="category">
+								<label for="Sitai">Sitai</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Dinhata" name="category">
+								<label for="Dinhata">Dinhata</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Natabari" name="category">
+								<label for="Natabari">Natabari</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Tufanganj" name="category">
+								<label for="Tufanganj">Tufanganj</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kumargram" name="category">
+								<label for="Kumargram">Kumargram</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kalchini" name="category">
+								<label for="Kalchini">Kalchini</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Alipurduars" name="category">
+								<label for="Alipurduars">Alipurduars</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Falakata" name="category">
+								<label for="Falakata">Falakata</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Madarihat" name="category">
+								<label for="Madarihat">Madarihat</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Dhupguri" name="category">
+								<label for="Dhupguri">Dhupguri</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Maynaguri" name="category">
+								<label for="Maynaguri">Maynaguri</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Jalpaiguri" name="category">
+								<label for="Jalpaiguri">Jalpaiguri</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Rajganj" name="category">
+								<label for="Rajganj">Rajganj</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Dabgram-Fulbari" name="category">
+								<label for="Dabgram-Fulbari">Dabgram-Fulbari</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Mal" name="category">
+								<label for="Mal">Mal</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Nagrakata" name="category">
+								<label for="Nagrakata">Nagrakata</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kalimpong" name="category">
+								<label for="Kalimpong">Kalimpong</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Darjeeling" name="category">
+								<label for="Darjeeling">Darjeeling</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kurseong" name="category">
+								<label for="Kurseong">Kurseong</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Matigara-Naxalbari" name="category">
+								<label for="Matigara-Naxalbari">Matigara-Naxalbari</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Siliguri" name="category">
+								<label for="Siliguri">Siliguri</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Phansidewa" name="category">
+								<label for="Phansidewa">Phansidewa</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Chopra" name="category">
+								<label for="Chopra">Chopra</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Islampur" name="category">
+								<label for="Islampur">Islampur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Goalpokhar" name="category">
+								<label for="Goalpokhar">Goalpokhar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Chakulia" name="category">
+								<label for="Chakulia">Chakulia</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Karandighi" name="category">
+								<label for="Karandighi">Karandighi</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Hemtabad" name="category">
+								<label for="Hemtabad">Hemtabad</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kaliaganj" name="category">
+								<label for="Kaliaganj">Kaliaganj</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Raiganj" name="category">
+								<label for="Raiganj">Raiganj</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Itahar" name="category">
+								<label for="Itahar">Itahar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kushmandi" name="category">
+								<label for="Kushmandi">Kushmandi</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kumarganj" name="category">
+								<label for="Kumarganj">Kumarganj</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Balurghat" name="category">
+								<label for="Balurghat">Balurghat</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Tapan" name="category">
+								<label for="Tapan">Tapan</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Gangarampur" name="category">
+								<label for="Gangarampur">Gangarampur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Harirampur" name="category">
+								<label for="Harirampur">Harirampur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Habibpur" name="category">
+								<label for="Habibpur">Habibpur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Gazole" name="category">
+								<label for="Gazole">Gazole</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Chanchal" name="category">
+								<label for="Chanchal">Chanchal</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Harischandrapur" name="category">
+								<label for="Harischandrapur">Harischandrapur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Malatipur" name="category">
+								<label for="Malatipur">Malatipur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Ratua" name="category">
+								<label for="Ratua">Ratua</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Manikchak" name="category">
+								<label for="Manikchak">Manikchak</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Maldaha" name="category">
+								<label for="Maldaha">Maldaha</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="English Bazar" name="category">
+								<label for="English Bazar">English Bazar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Mothabari" name="category">
+								<label for="Mothabari">Mothabari</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Sujapur" name="category">
+								<label for="Sujapur">Sujapur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Baisnabnagar" name="category">
+								<label for="Baisnabnagar">Baisnabnagar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Farakka" name="category">
+								<label for="Farakka">Farakka</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Suti" name="category">
+								<label for="Suti">Suti</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="RaghunathGanj" name="category">
+								<label for="RaghunathGanj">RaghunathGanj</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Sagardighi" name="category">
+								<label for="Sagardighi">Sagardighi</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Lalgola" name="category">
+								<label for="Lalgola">Lalgola</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Bhagabangola" name="category">
+								<label for="Bhagabangola">Bhagabangola</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Raninagar" name="category">
+								<label for="Raninagar">Raninagar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Murshidabad" name="category">
+								<label for="Murshidabad">Murshidabad</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Nabagram" name="category">
+								<label for="Nabagram">Nabagram</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Khargram" name="category">
+								<label for="Khargram">Khargram</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Burwan" name="category">
+								<label for="Burwan">Burwan</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kandi" name="category">
+								<label for="Kandi">Kandi</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Bharatpur" name="category">
+								<label for="Bharatpur">Bharatpur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Rejinagar" name="category">
+								<label for="Rejinagar">Rejinagar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Beldanga" name="category">
+								<label for="Beldanga">Beldanga</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Baharampur" name="category">
+								<label for="Baharampur">Baharampur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Hariharpara" name="category">
+								<label for="Hariharpara">Hariharpara</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Naoda" name="category">
+								<label for="Naoda">Naoda</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Domkal" name="category">
+								<label for="Domkal">Domkal</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Jalangi" name="category">
+								<label for="Jalangi">Jalangi</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Karimpur" name="category">
+								<label for="Karimpur">Karimpur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Tehatta" name="category">
+								<label for="Tehatta">Tehatta</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Palashipara" name="category">
+								<label for="Palashipara">Palashipara</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kaliganj" name="category">
+								<label for="Kaliganj">Kaliganj</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Nakashipara" name="category">
+								<label for="Nakashipara">Nakashipara</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Chapra" name="category">
+								<label for="Chapra">Chapra</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Krishnanagar Uttar" name="category">
+								<label for="Krishnanagar Uttar">Krishnanagar Uttar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Nabadwip" name="category">
+								<label for="Nabadwip">Nabadwip</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Krishnanagar Dakshin" name="category">
+								<label for="Krishnanagar Dakshin">Krishnanagar Dakshin</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Santipur" name="category">
+								<label for="Santipur">Santipur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Ranaghat Uttar Paschim" name="category">
+								<label for="Ranaghat Uttar Paschim">Ranaghat Uttar Paschim</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Krishnaganj" name="category">
+								<label for="Krishnaganj">Krishnaganj</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Ranaghat Uttar Purba" name="category">
+								<label for="Ranaghat Uttar Purba">Ranaghat Uttar Purba</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Ranaghat Dakshin" name="category">
+								<label for="Ranaghat Dakshin">Ranaghat Dakshin</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Chakdaha" name="category">
+								<label for="Chakdaha">Chakdaha</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kalyani" name="category">
+								<label for="Kalyani">Kalyani</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Haringhata" name="category">
+								<label for="Haringhata">Haringhata</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Bagda" name="category">
+								<label for="Bagda">Bagda</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Bangaon Uttar" name="category">
+								<label for="Bangaon Uttar">Bangaon Uttar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Bangaon Dakshin" name="category">
+								<label for="Bangaon Dakshin">Bangaon Dakshin</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Gaighata" name="category">
+								<label for="Gaighata">Gaighata</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Swarupnagar" name="category">
+								<label for="Swarupnagar">Swarupnagar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Baduria" name="category">
+								<label for="Baduria">Baduria</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Habra" name="category">
+								<label for="Habra">Habra</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Ashoknagar" name="category">
+								<label for="Ashoknagar">Ashoknagar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Amdanga" name="category">
+								<label for="Amdanga">Amdanga</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Bijpur" name="category">
+								<label for="Bijpur">Bijpur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Naihati" name="category">
+								<label for="Naihati">Naihati</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Bhatpara" name="category">
+								<label for="Bhatpara">Bhatpara</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Jagatdal" name="category">
+								<label for="Jagatdal">Jagatdal</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Noapara" name="category">
+								<label for="Noapara">Noapara</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Barrackpur" name="category">
+								<label for="Barrackpur">Barrackpur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Khardaha" name="category">
+								<label for="Khardaha">Khardaha</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Dum Dum Uttar" name="category">
+								<label for="Dum Dum Uttar">Dum Dum Uttar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Panihati" name="category">
+								<label for="Panihati">Panihati</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kamarhati" name="category">
+								<label for="Kamarhati">Kamarhati</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Baranagar" name="category">
+								<label for="Baranagar">Baranagar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Dum Dum" name="category">
+								<label for="Dum Dum">Dum Dum</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Rajarhat New Town" name="category">
+								<label for="Rajarhat New Town">Rajarhat New Town</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Bidhannagar" name="category">
+								<label for="Bidhannagar">Bidhannagar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Rajarhat Gopalpur" name="category">
+								<label for="Rajarhat Gopalpur">Rajarhat Gopalpur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Madhyamgram" name="category">
+								<label for="Madhyamgram">Madhyamgram</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Barasat" name="category">
+								<label for="Barasat">Barasat</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Deganga" name="category">
+								<label for="Deganga">Deganga</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Haroa" name="category">
+								<label for="Haroa">Haroa</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Minakhan" name="category">
+								<label for="Minakhan">Minakhan</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Sandeshkhali" name="category">
+								<label for="Sandeshkhali">Sandeshkhali</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Basirhat Dakshin" name="category">
+								<label for="Basirhat Dakshin">Basirhat Dakshin</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Basirhat Uttar" name="category">
+								<label for="Basirhat Uttar">Basirhat Uttar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Hingalganj" name="category">
+								<label for="Hingalganj">Hingalganj</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Gosaba" name="category">
+								<label for="Gosaba">Gosaba</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Basanti" name="category">
+								<label for="Basanti">Basanti</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kultali" name="category">
+								<label for="Kultali">Kultali</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Patharpratima" name="category">
+								<label for="Patharpratima">Patharpratima</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kakdwip" name="category">
+								<label for="Kakdwip">Kakdwip</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Sagar" name="category">
+								<label for="Sagar">Sagar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kulpi" name="category">
+								<label for="Kulpi">Kulpi</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Raidighi" name="category">
+								<label for="Raidighi">Raidighi</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Mandirbazar" name="category">
+								<label for="Mandirbazar">Mandirbazar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Joynagar" name="category">
+								<label for="Joynagar">Joynagar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Baruipur Purba" name="category">
+								<label for="Baruipur Purba">Baruipur Purba</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Canning Paschim" name="category">
+								<label for="Canning Paschim">Canning Paschim</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Canning Purba" name="category">
+								<label for="Canning Purba">Canning Purba</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Baruipur Paschim" name="category">
+								<label for="Baruipur Paschim">Baruipur Paschim</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Magrahat Purba" name="category">
+								<label for="Magrahat Purba">Magrahat Purba</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Magrahat Paschim" name="category">
+								<label for="Magrahat Paschim">Magrahat Paschim</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Diamond Harbour" name="category">
+								<label for="Diamond Harbour">Diamond Harbour</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Falta" name="category">
+								<label for="Falta">Falta</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Satgachhia" name="category">
+								<label for="Satgachhia">Satgachhia</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="146 Bishnupur" name="category">
+								<label for="146 Bishnupur">146 Bishnupur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Sonarpur Dakshin" name="category">
+								<label for="Sonarpur Dakshin">Sonarpur Dakshin</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Bhangar" name="category">
+								<label for="Bhangar">Bhangar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kasba" name="category">
+								<label for="Kasba">Kasba</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Jadavpur" name="category">
+								<label for="Jadavpur">Jadavpur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Sonarpur Uttar" name="category">
+								<label for="Sonarpur Uttar">Sonarpur Uttar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Tollyganj" name="category">
+								<label for="Tollyganj">Tollyganj</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Behala Purba" name="category">
+								<label for="Behala Purba">Behala Purba</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Behala Paschim" name="category">
+								<label for="Behala Paschim">Behala Paschim</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Maheshtala" name="category">
+								<label for="Maheshtala">Maheshtala</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Budge Budge" name="category">
+								<label for="Budge Budge">Budge Budge</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Metiaburuz" name="category">
+								<label for="Metiaburuz">Metiaburuz</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kolkata Port" name="category">
+								<label for="Kolkata Port">Kolkata Port</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Bhabanipur" name="category">
+								<label for="Bhabanipur">Bhabanipur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Rashbehari" name="category">
+								<label for="Rashbehari">Rashbehari</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Ballygunge" name="category">
+								<label for="Ballygunge">Ballygunge</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Chowrangee" name="category">
+								<label for="Chowrangee">Chowrangee</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Entally" name="category">
+								<label for="Entally">Entally</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Beleghata" name="category">
+								<label for="Beleghata">Beleghata</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Jorasanko" name="category">
+								<label for="Jorasanko">Jorasanko</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Shyampukur" name="category">
+								<label for="Shyampukur">Shyampukur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Maniktola" name="category">
+								<label for="Maniktola">Maniktola</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kashipur-Belgachhia" name="category">
+								<label for="Kashipur-Belgachhia">Kashipur-Belgachhia</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Bally" name="category">
+								<label for="Bally">Bally</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Howrah Uttar" name="category">
+								<label for="Howrah Uttar">Howrah Uttar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Howrah Madhya" name="category">
+								<label for="Howrah Madhya">Howrah Madhya</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Shibpur" name="category">
+								<label for="Shibpur">Shibpur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Howrah Dakshin" name="category">
+								<label for="Howrah Dakshin">Howrah Dakshin</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Sankrail" name="category">
+								<label for="Sankrail">Sankrail</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Panchla" name="category">
+								<label for="Panchla">Panchla</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Uluberia Purba" name="category">
+								<label for="Uluberia Purba">Uluberia Purba</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Uluberia Uttar" name="category">
+								<label for="Uluberia Uttar">Uluberia Uttar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Uluberia Dakshin" name="category">
+								<label for="Uluberia Dakshin">Uluberia Dakshin</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Shyampur" name="category">
+								<label for="Shyampur">Shyampur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Bagnan" name="category">
+								<label for="Bagnan">Bagnan</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Amta" name="category">
+								<label for="Amta">Amta</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Udaynarayanpur" name="category">
+								<label for="Udaynarayanpur">Udaynarayanpur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Jagatballavpur" name="category">
+								<label for="Jagatballavpur">Jagatballavpur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Domjur" name="category">
+								<label for="Domjur">Domjur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Uttarpara" name="category">
+								<label for="Uttarpara">Uttarpara</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Sreerampur" name="category">
+								<label for="Sreerampur">Sreerampur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Champdani" name="category">
+								<label for="Champdani">Champdani</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Singur" name="category">
+								<label for="Singur">Singur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Chandannagar" name="category">
+								<label for="Chandannagar">Chandannagar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Chunchura" name="category">
+								<label for="Chunchura">Chunchura</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Balagarh" name="category">
+								<label for="Balagarh">Balagarh</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Pandua" name="category">
+								<label for="Pandua">Pandua</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Saptagram" name="category">
+								<label for="Saptagram">Saptagram</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Chanditala" name="category">
+								<label for="Chanditala">Chanditala</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Jangipara" name="category">
+								<label for="Jangipara">Jangipara</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Haripal" name="category">
+								<label for="Haripal">Haripal</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Dhanekhali" name="category">
+								<label for="Dhanekhali">Dhanekhali</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Tarakeswar" name="category">
+								<label for="Tarakeswar">Tarakeswar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Pursurah" name="category">
+								<label for="Pursurah">Pursurah</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Arambag" name="category">
+								<label for="Arambag">Arambag</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Goghat" name="category">
+								<label for="Goghat">Goghat</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Khanakul" name="category">
+								<label for="Khanakul">Khanakul</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Tamluk" name="category">
+								<label for="Tamluk">Tamluk</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Panskura Purba" name="category">
+								<label for="Panskura Purba">Panskura Purba</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Panskura Paschim" name="category">
+								<label for="Panskura Paschim">Panskura Paschim</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Moyna" name="category">
+								<label for="Moyna">Moyna</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Nandakumar" name="category">
+								<label for="Nandakumar">Nandakumar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Mahishadal" name="category">
+								<label for="Mahishadal">Mahishadal</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Haldia" name="category">
+								<label for="Haldia">Haldia</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Nandigram" name="category">
+								<label for="Nandigram">Nandigram</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Chandipur" name="category">
+								<label for="Chandipur">Chandipur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Patashpur" name="category">
+								<label for="Patashpur">Patashpur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kanthi Uttar" name="category">
+								<label for="Kanthi Uttar">Kanthi Uttar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Bhagabanpur" name="category">
+								<label for="Bhagabanpur">Bhagabanpur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Khejuri" name="category">
+								<label for="Khejuri">Khejuri</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kanthi Dakshin" name="category">
+								<label for="Kanthi Dakshin">Kanthi Dakshin</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Ramnagar" name="category">
+								<label for="Ramnagar">Ramnagar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Egra" name="category">
+								<label for="Egra">Egra</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Dantan" name="category">
+								<label for="Dantan">Dantan</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Nayagram" name="category">
+								<label for="Nayagram">Nayagram</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Gopiballavpur" name="category">
+								<label for="Gopiballavpur">Gopiballavpur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Jhargram" name="category">
+								<label for="Jhargram">Jhargram</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Keshiary" name="category">
+								<label for="Keshiary">Keshiary</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kharagpur Sadar" name="category">
+								<label for="Kharagpur Sadar">Kharagpur Sadar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Narayangarh" name="category">
+								<label for="Narayangarh">Narayangarh</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Sabang" name="category">
+								<label for="Sabang">Sabang</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Pingla" name="category">
+								<label for="Pingla">Pingla</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kharagpur" name="category">
+								<label for="Kharagpur">Kharagpur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Debra" name="category">
+								<label for="Debra">Debra</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Daspur" name="category">
+								<label for="Daspur">Daspur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Ghatal" name="category">
+								<label for="Ghatal">Ghatal</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Chandrakona" name="category">
+								<label for="Chandrakona">Chandrakona</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Garbeta" name="category">
+								<label for="Garbeta">Garbeta</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Salboni" name="category">
+								<label for="Salboni">Salboni</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Keshpur" name="category">
+								<label for="Keshpur">Keshpur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Medinipur" name="category">
+								<label for="Medinipur">Medinipur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Binpur" name="category">
+								<label for="Binpur">Binpur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Bandwan" name="category">
+								<label for="Bandwan">Bandwan</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Balarampur" name="category">
+								<label for="Balarampur">Balarampur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Baghmundi" name="category">
+								<label for="Baghmundi">Baghmundi</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Joypur" name="category">
+								<label for="Joypur">Joypur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Purulia" name="category">
+								<label for="Purulia">Purulia</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Manbazar" name="category">
+								<label for="Manbazar">Manbazar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kashipur" name="category">
+								<label for="Kashipur">Kashipur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Para" name="category">
+								<label for="Para">Para</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Raghunathpur" name="category">
+								<label for="Raghunathpur">Raghunathpur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Saltora" name="category">
+								<label for="Saltora">Saltora</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Chhatna" name="category">
+								<label for="Chhatna">Chhatna</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Ranibandh" name="category">
+								<label for="Ranibandh">Ranibandh</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Raipur" name="category">
+								<label for="Raipur">Raipur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Taldangra" name="category">
+								<label for="Taldangra">Taldangra</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Bankura" name="category">
+								<label for="Bankura">Bankura</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Barjora" name="category">
+								<label for="Barjora">Barjora</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Onda" name="category">
+								<label for="Onda">Onda</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Bishnupur" name="category">
+								<label for="Bishnupur">Bishnupur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Katulpur" name="category">
+								<label for="Katulpur">Katulpur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Indus" name="category">
+								<label for="Indus">Indus</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Sonamukhi" name="category">
+								<label for="Sonamukhi">Sonamukhi</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Khandaghosh" name="category">
+								<label for="Khandaghosh">Khandaghosh</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Burdwan Dakshin" name="category">
+								<label for="Burdwan Dakshin">Burdwan Dakshin</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Raina" name="category">
+								<label for="Raina">Raina</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Jamalpur" name="category">
+								<label for="Jamalpur">Jamalpur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Monteswar" name="category">
+								<label for="Monteswar">Monteswar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kalna" name="category">
+								<label for="Kalna">Kalna</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Memari" name="category">
+								<label for="Memari">Memari</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Burdwan Uttar" name="category">
+								<label for="Burdwan Uttar">Burdwan Uttar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Bhatar" name="category">
+								<label for="Bhatar">Bhatar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Purbasthali Dakshin" name="category">
+								<label for="Purbasthali Dakshin">Purbasthali Dakshin</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Purbasthali Uttar" name="category">
+								<label for="Purbasthali Uttar">Purbasthali Uttar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Katwa" name="category">
+								<label for="Katwa">Katwa</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Ketugram" name="category">
+								<label for="Ketugram">Ketugram</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Mongalkote" name="category">
+								<label for="Mongalkote">Mongalkote</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Ausgram" name="category">
+								<label for="Ausgram">Ausgram</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Galsi" name="category">
+								<label for="Galsi">Galsi</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Pandabeswar" name="category">
+								<label for="Pandabeswar">Pandabeswar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Durgapur Purba" name="category">
+								<label for="Durgapur Purba">Durgapur Purba</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Durgapur Paschim" name="category">
+								<label for="Durgapur Paschim">Durgapur Paschim</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Raniganj" name="category">
+								<label for="Raniganj">Raniganj</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Jamuria" name="category">
+								<label for="Jamuria">Jamuria</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Asnsol Dakshin" name="category">
+								<label for="Asnsol Dakshin">Asnsol Dakshin</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Asansol Uttar" name="category">
+								<label for="Asansol Uttar">Asansol Uttar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Kulti" name="category">
+								<label for="Kulti">Kulti</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Barabani" name="category">
+								<label for="Barabani">Barabani</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Dubrajpur" name="category">
+								<label for="Dubrajpur">Dubrajpur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Suri" name="category">
+								<label for="Suri">Suri</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Bolpur" name="category">
+								<label for="Bolpur">Bolpur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Nanoor" name="category">
+								<label for="Nanoor">Nanoor</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Labhpur" name="category">
+								<label for="Labhpur">Labhpur</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Sainthia" name="category">
+								<label for="Sainthia">Sainthia</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Mayureswar" name="category">
+								<label for="Mayureswar">Mayureswar</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Rampurhat" name="category">
+								<label for="Rampurhat">Rampurhat</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Hansan" name="category">
+								<label for="Hansan">Hansan</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Nalhati" name="category">
+								<label for="Nalhati">Nalhati</label>
+							</div>
+							<div class="option" style="display: block;">
+								<input type="radio" class="radio" id="Murarai" name="category">
+								<label for="Murarai">Murarai</label>
+							</div>
+						</div>
+
+						<div class="selected">
+							Mekliganj
+						</div>
+
+						<div class="search-box">
+							<input type="text" placeholder="Start Typing..." class="text-dark"/>
+						</div>
+					</div>
+				</div>
+				<div id="myDiv"></div>
+			</div>
+			<footer class="footer">
+				<!-- <div class="container-fluid">
+					<nav class="pull-left">
+						<ul class="nav">
+							<li class="nav-item">
+								<a class="nav-link" href="https://www.themekita.com">
+									ThemeKita
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Help
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Licenses
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="copyright ml-auto">
+						2018, made with <i class="fa fa-heart heart text-danger"></i> by <a href="https://www.themekita.com">ThemeKita</a>
+					</div>				
+				</div> -->
+				<div class="container-fluid">
+					<div class="copyright ml-auto">
+						2021, made with <i class="fa fa-heart heart text-danger"></i> by Root2AI.
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<!-- Custom template | don't include it in your project! -->
+		<!-- <div class="custom-template">
+			<div class="title">Settings</div>
+			<div class="custom-content">
+				<div class="switcher">
+					<div class="switch-block">
+						<h4>Logo Header</h4>
+						<div class="btnSwitch">
+							<button type="button" class="changeLogoHeaderColor" data-color="dark"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="blue"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="purple"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="light-blue"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="green"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="orange"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="red"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="white"></button>
+							<br/>
+							<button type="button" class="selected changeLogoHeaderColor" data-color="dark2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="blue2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="purple2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="light-blue2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="green2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="orange2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="red2"></button>
+						</div>
+					</div>
+					<div class="switch-block">
+						<h4>Navbar Header</h4>
+						<div class="btnSwitch">
+							<button type="button" class="selected changeTopBarColor" data-color="dark"></button>
+							<button type="button" class="changeTopBarColor" data-color="blue"></button>
+							<button type="button" class="changeTopBarColor" data-color="purple"></button>
+							<button type="button" class="changeTopBarColor" data-color="light-blue"></button>
+							<button type="button" class="changeTopBarColor" data-color="green"></button>
+							<button type="button" class="changeTopBarColor" data-color="orange"></button>
+							<button type="button" class="changeTopBarColor" data-color="red"></button>
+							<button type="button" class="changeTopBarColor" data-color="white"></button>
+							<br/>
+							<button type="button" class="changeTopBarColor" data-color="dark2"></button>
+							<button type="button" class="changeTopBarColor" data-color="blue2"></button>
+							<button type="button" class="changeTopBarColor" data-color="purple2"></button>
+							<button type="button" class="changeTopBarColor" data-color="light-blue2"></button>
+							<button type="button" class="changeTopBarColor" data-color="green2"></button>
+							<button type="button" class="changeTopBarColor" data-color="orange2"></button>
+							<button type="button" class="changeTopBarColor" data-color="red2"></button>
+						</div>
+					</div>
+					<div class="switch-block">
+						<h4>Sidebar</h4>
+						<div class="btnSwitch">
+							<button type="button" class="changeSideBarColor" data-color="white"></button>
+							<button type="button" class="changeSideBarColor" data-color="dark"></button>
+							<button type="button" class="selected changeSideBarColor" data-color="dark2"></button>
+						</div>
+					</div>
+					<div class="switch-block">
+						<h4>Background</h4>
+						<div class="btnSwitch">
+							<button type="button" class="changeBackgroundColor" data-color="bg2"></button>
+							<button type="button" class="changeBackgroundColor selected" data-color="bg1"></button>
+							<button type="button" class="changeBackgroundColor" data-color="bg3"></button>
+							<button type="button" class="selected changeBackgroundColor" data-color="dark"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="custom-toggle">
+				<i class="flaticon-settings"></i>
+			</div>
+		</div> -->
+		<!-- End Custom template -->
+	</div>
+	<!--   Core JS Files   -->
+	<script src="assets/js/core/jquery.3.2.1.min.js"></script>
+	<script src="assets/js/core/popper.min.js"></script>
+	<script src="assets/js/core/bootstrap.min.js"></script>
+
+	<!-- jQuery UI -->
+	<script src="assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+	<script src="assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+
+	<!-- jQuery Scrollbar -->
+	<script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+
+	<!-- Chart JS -->
+	<script src="assets/js/plugin/chart.js/chart.min.js"></script>
+
+	<!-- jQuery Sparkline -->
+	<script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+
+	<!-- Chart Circle -->
+	<script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+
+	<!-- Datatables -->
+	<script src="assets/js/plugin/datatables/datatables.min.js"></script>
+
+	<!-- Bootstrap Notify -->
+	<!-- <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script> -->
+
+	<!-- jQuery Vector Maps -->
+	<script src="assets/js/plugin/jqvmap/jquery.vmap.min.js"></script>
+	<script src="assets/js/plugin/jqvmap/maps/jquery.vmap.world.js"></script>
+
+	<!-- Sweet Alert -->
+	<script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+	<!-- Atlantis JS -->
+	<script src="assets/js/atlantis.min.js"></script>
+
+	<!-- Atlantis DEMO methods, don't include it in your project! 
+	<script src="assets/js/setting-demo.js"></script>
+	<script src="assets/js/demo.js"></script> -->
+
+	<!-- souren js -->
+	<!-- <script src="datasets/ConstituencySummary.js"></script>
+	<script src="assets/js/script.js"></script>
+	<script>
+		$('#lineChart').sparkline([198744,214203,243916,195505,245966,238578,243751,217173,209378,232489,195815,222732,220500,166920,229323,236093,225933,215755,258969,213255,191169,154863,168575,175545,240591,178650,207590,204110,169974,161535,173400,213136,223301,239726,161347,193986,184075,170928,152092,186309,189482,187642,197989,221214,199679,203153,185484,219148,206991,206489,215675,163143,207591,208652,186424,216328,190478,186816,190438,225990,222016,229231,208516,185936,176803,186481,189047,210445,204511,197607,216075,202349,226183,222167,221506,218109,203385,209379,209570,213175,201805,210589,195685,219692,223193,231938,214736,241687,212064,220338,210874,218791,205175,207834,213243,211804,212883,204171,216724,211742,139096,156468,107197,181287,192634,148249,183147,213149,174356,144310,160259,185334,234906,162035,178723,230431,225707,214380,227395,212352,205787,235737,238426,194681,195808,213910,227351,231786,219597,239067,193130,238720,199490,202431,225114,218354,232766,211293,206153,194282,225397,207932,235546,237570,232807,242185,223154,215419,240495,197365,221872,231816,219969,216892,196582,152443,127376,124455,150962,111493,156874,158506,98955,102970,132967,134872,125873,149720,195144,182219,216940,222127,217009,193021,185780,202266,221889,199935,208810,198211,235721,250978,199894,188081,201131,209938,182178,254737,219957,223664,192190,207106,210411,220774,233838,205917,223074,219960,219545,217991,236031,198400,234141,224434,227275,219355,220823,228405,220327,208827,228416,222650,212621,194681,222060,240817,197798,192354,199070,201797,212681,171385,217750,236201,228669,200044,204866,222464,225375,249315,207681,249195,230232,238898,188798,241055,197965,206303,202767,206868,213729,194892,194021,214690,202413,196836,211170,194476,203186,217986,219452,225759,191469,224123,218453,207739,217897,205345,229166,206690,209036,208951,218802,241925,214168,215353,212343,224459,215317,217329,217080,222538,164291,192674,196902,182211,166703,194737,192907,174767,169207,204599,218590,230260,235328,212027,221866,199425,217323,210606,207696,217917], {
+			type: 'line',
+			height: '70',
+			width: '100%',
+			lineWidth: '2',
+			lineColor: 'rgba(255, 255, 255, .5)',
+			fillColor: 'rgba(255, 255, 255, .15)'
+		});
+
+		$('#lineChart2').sparkline([197407,212255,240745,192516,244405,236342,240790,213948,206508,230006,194173,219217,218209,165539,226834,233410,220354,213376,257230,212195,190489,152220,165269,172746,238883,176578,206596,202611,168361,160768,172512,211840,221313,236929,158159,192368,182357,169469,149157,184025,187106,186088,196069,219569,198546,202028,184627,217357,204725,204268,211215,161494,206409,207441,185668,215357,189906,185912,189888,225284,220910,228020,207136,184924,175669,184705,188272,208651,202981,194545,214655,201272,225097,220652,217713,214693,200785,206189,206926,210813,198464,207755,193754,217309,220674,229493,212604,239705,208591,217245,209221,216765,202920,205732,210815,211018,211905,202772,214721,211154,137763,154972,106782,179838,191207,147156,182254,212247,173334,143561,158813,184498,234050,160858,177833,228540,224493,213691,226479,211767,204895,234313,237417,192707,194314,212253,226152,230776,218743,237200,192142,236830,198546,201538,223716,217225,231658,209952,205042,192692,224450,206388,234398,236238,231117,241671,222319,213515,239193,195753,220425,230046,219140,215358,196153,151971,126592,122990,150364,110882,156146,157402,98548,102001,132275,133309,125511,149388,194766,181522,216434,221797,216646,192430,185444,202090,221434,199571,208617,197523,234851,250599,198698,186927,200151,207760,179848,252290,218340,222239,190989,206390,208957,218906,231681,203625,221573,218615,218390,216853,234208,197825,232650,222446,225610,217030,219538,226361,218999,206772,226402,221004,211204,192644,220575,238837,196340,190068,196221,198802,211275,170420,216387,232652,226729,198468,202440,220473,223253,247948,206336,247041,229238,235570,187618,238332,196592,204652,201057,205139,211117,193080,193133,213004,200973,195390,208939,192811,200969,215761,218029,224250,189654,221402,216638,205678,216128,203603,227573,205681,208023,208183,217962,240406,212951,214469,210957,222818,214030,216010,216117,221469,162791,190882,195288,180923,165659,192785,190782,173810,167302,202544,215276,227100,232681,209489,219024,197055,214922,208789,206298,216411], {
+			type: 'line',
+			height: '70',
+			width: '100%',
+			lineWidth: '2',
+			lineColor: 'rgba(255, 255, 255, .5)',
+			fillColor: 'rgba(255, 255, 255, .15)'
+		});
+
+		$('#lineChart3').sparkline([1337,1948,3171,2989,1561,2236,2961,3225,2870,2483,1642,3515,2291,1381,2489,2683,5579,2379,1739,1060,680,2643,3306,2799,1708,2072,994,1499,1613,767,888,1296,1988,2797,3188,1618,1718,1459,2935,2284,2376,1554,1920,1645,1133,1125,857,1791,2266,2221,4460,1649,1182,1211,756,971,572,904,550,706,1106,1211,1380,1012,1134,1776,775,1794,1530,3062,1420,1077,1086,1515,3793,3416,2600,3190,2644,2362,3341,2834,1931,2383,2519,2445,2132,1982,3473,3093,1653,2026,2255,2102,2428,786,978,1399,2003,588,1333,1496,415,1449,1427,1093,893,902,1022,749,1446,836,856,1177,890,1891,1214,689,916,585,892,1424,1009,1974,1494,1657,1199,1010,854,1867,988,1890,944,893,1398,1129,1108,1341,1111,1590,947,1544,1148,1332,1690,514,835,1904,1302,1612,1447,1770,829,1534,429,472,784,1465,598,611,728,1104,407,969,692,1563,362,332,378,697,506,330,363,591,336,176,455,364,193,688,870,379,1196,1154,980,2178,2330,2447,1617,1425,1201,716,1454,1868,2157,2292,1501,1345,1155,1138,1823,575,1491,1988,1665,2325,1285,2044,1328,2055,2014,1646,1417,2037,1485,1980,1458,2286,2849,2995,1406,965,1363,3549,1940,1576,2426,1991,2122,1367,1345,2154,994,3328,1180,2723,1373,1651,1710,1729,2612,1812,888,1686,1440,1446,2231,1665,2217,2225,1423,1509,1815,2721,1815,2061,1769,1742,1593,1009,1013,768,840,1519,1217,884,1386,1641,1287,1319,963,1069,1500,1792,1614,1288,1044,1952,2125,957,1905,2055,3314,3160,2647,2538,2842,2370,2401,1817,1398,1506], {
+			type: 'line',
+			height: '70',
+			width: '100%',
+			lineWidth: '2',
+			lineColor: 'rgba(255, 255, 255, .5)',
+			fillColor: 'rgba(255, 255, 255, .15)'
+		});
+	</script> -->
+
+	<!-- Rahul -->
+	<script src="./assets/js/detailed-results.js"></script>
+</body>
+
+</html>

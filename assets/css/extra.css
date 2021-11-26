@@ -1,0 +1,264 @@
+.chart {
+    border-radius: 10px;
+    width: 100%;
+    overflow: scroll;
+}
+
+.container {
+    padding: 32px;
+}
+
+.chart-row {
+    margin-bottom: 50px;
+}
+
+.chart-row .col-md-6 {
+    max-height: 590px;
+    overflow-y: scroll;
+}
+
+.col-md-6::-webkit-scrollbar {
+    display: none;
+}
+
+.select-box {
+    position: relative;
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+}
+
+.select-box .options-container {
+    background: #2f3640;
+    color: #f5f6fa;
+    max-height: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 8px;
+    overflow: hidden;
+
+    order: 1;
+}
+
+.selected {
+    background: #2f3640;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    color: #f5f6fa;
+    position: relative;
+
+    order: 0;
+}
+
+.selected::after {
+    content: "";
+    background: url("../img/arrow-down.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    height: 100%;
+    width: 32px;
+    right: 10px;
+    top: 5px;
+
+    transition: all 0.4s;
+}
+
+.select-box .options-container.active {
+    max-height: 240px;
+    opacity: 1;
+    overflow-y: scroll;
+    margin-top: 60px;
+}
+
+.select-box .options-container.active+.selected::after {
+    transform: rotateX(180deg);
+    top: -6px;
+}
+
+.select-box .options-container::-webkit-scrollbar {
+    width: 8px;
+    background: #0d141f;
+    border-radius: 0 8px 8px 0;
+}
+
+.select-box .options-container::-webkit-scrollbar-thumb {
+    background: #525861;
+    border-radius: 0 8px 8px 0;
+}
+
+.select-box .option,
+.selected {
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.select-box .option:hover {
+    background: #414b57;
+}
+
+.select-box label {
+    cursor: pointer;
+}
+
+.select-box .option .radio {
+    display: none;
+}
+
+/* Searchbox */
+
+.search-box input {
+    width: 100%;
+    padding: 12px 16px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    position: absolute;
+    border-radius: 8px 8px 0 0;
+    z-index: 100;
+    border: 8px solid #2f3640;
+
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s;
+}
+
+.search-box input:focus {
+    outline: none;
+}
+
+.select-box .options-container.active~.search-box input {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* CheckBOx */
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.plot label {
+    position: relative;
+    margin-left: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.plot label::before {
+    content: "";
+    background: url("../img/check-circle.svg");
+    background-position: center;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: -40px;
+    top: -7px;
+
+    transform: scale(0) rotateZ(180deg);
+    transition: all 0.4s cubic-bezier(0.54, 0.01, 0, 1.49);
+}
+
+input[type="checkbox"]:checked+label::before {
+    transform: scale(1) rotateZ(0deg);
+}
+
+.plot label::after {
+    content: "";
+    border: 2px solid #27ae60;
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    left: -39.5px;
+    top: -6.3px;
+    border-radius: 50%;
+}
+
+/* Data Table */
+
+.dataTables_wrapper {
+    overflow-x: scroll;
+}
+
+.dataTables_wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+
+.indexTable {
+    overflow-x: scroll;
+}
+
+.indexTable::-webkit-scrollbar {
+    display: none;
+}
+
+.odd {
+    color: white;
+    background-color: rgb(36, 36, 36) !important;
+}
+
+.even {
+    color: white;
+    background-color: rgb(36, 36, 36) !important;
+}
+
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:before {
+    content: "";
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc_disabled:after {
+    content: "";
+}
+
+input,
+select {
+    color: white;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    color: white !important;
+}
+
+option {
+    background-color: #2f3640;
+}
+
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_paginate {
+    color: white;
+}
+
+.phase .td {
+    padding: 0 !important;
+}
+
+
+.phase {
+    border: 1px solid black;
+}
+
+
+.phase .tr {
+    height: 5px !important;
+}
+
+.hicon {
+    height: 110px;
+    max-width: 110px;
+}
+
+.hwidget {
+    height: 70px;
+    max-width: 70px;
+}
